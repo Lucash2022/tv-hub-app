@@ -74,8 +74,8 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **Add name and scores to the leaderboard**
-- **Acquire data from leaderboard api**
+- **Add comments to meals*
+- **Add likes to meals**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
