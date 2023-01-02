@@ -135,11 +135,22 @@ You can deploy this project using [Github Pages](https://docs.github.com/en/page
 
 <a name="authors"></a>
 
-👤 **Utsargo Roy**
+<h4>Lucas Erkana</h4>
 
-- GitHub: [@utsargo](https://github.com/utsargo)
-- Twitter: [@royutsargo](https://twitter.com/royutsargo)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/utsargo-roy/)
+<img src="/images/github.svg" alt="logo" width="18"  height="18" />[githubhandle](https://github.com/Lucash2022)
+<br>
+<img src="/images/twitter.svg" alt="logo" width="18"  height="18" /> [twitterhandle](https://twitter.com/@Lucas_David_22)
+<br>
+<img src="/images/linkedin.svg" alt="logo" width="18"  height="18" />[linkedIn](https://www.linkedin.com/in/lucas-erkana-b30a0b3b/)
+  <br>
+<img src="/images/facebook.svg" alt="logo" width="18"  height="18" />[facebook](https://www.facebook.com/lucash.toni)
+
+👤 **Wahaj Ali**
+<img src="/images/github.svg" alt="logo" width="18"  height="18" />[githubhandle](https://github.com/Wahaj-Ali)
+<br>
+<img src="/images/linkedin.svg" alt="logo" width="18"  height="18" />[linkedIn](https://www.linkedin.com/in/wahaj-ali96/)
+  <br>
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
