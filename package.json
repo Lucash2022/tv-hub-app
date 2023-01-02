@@ -1,7 +1,7 @@
 {
-  "name": "webpack_setup",
+  "name": "tv-hub",
   "version": "1.0.0",
-  "description": "",
+  "description": "<a name=\"readme-top\"></a>\r <div align=\"center\">",
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Lucash2002/webpack_setup.git"
+    "url": "git+https://github.com/Lucash2002/tv-hub.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Lucash2002/webpack_setup/issues"
+    "url": "https://github.com/Lucash2002/tv-hub/issues"
   },
-  "homepage": "https://github.com/Lucash2002/webpack_setup#readme",
+  "homepage": "https://github.com/Lucash2002/tv-hub#readme",
   "devDependencies": {
     "css-loader": "^6.7.1",
     "html-webpack-plugin": "^5.5.0",
@@ -29,5 +29,6 @@
   },
   "dependencies": {
     "lodash": "^4.17.21"
-  }
+  },
+  "main": "webpack.config.js"
 }

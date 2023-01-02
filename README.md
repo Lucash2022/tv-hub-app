@@ -8,7 +8,7 @@
 
 </div>
 <div align="left">
-  <h1>Project: Scrumptious Meals</h1>
+  <h1>Project: TV Hub</h1>
 
 ## In this milestone We will Create the Scrumptious Meals: with APIs:
 
