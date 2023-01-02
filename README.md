@@ -153,6 +153,7 @@ You can deploy this project using [Github Pages](https://docs.github.com/en/page
 <img src="/images/facebook.svg" alt="logo" width="18"  height="18" />[facebook](https://www.facebook.com/lucash.toni)
 
 👤 **Wahaj Ali**
+
 <img src="/images/github.svg" alt="logo" width="18"  height="18" />[githubhandle](https://github.com/Wahaj-Ali)
 <br>
 <img src="/images/linkedin.svg" alt="logo" width="18"  height="18" />[linkedIn](https://www.linkedin.com/in/wahaj-ali96/)
