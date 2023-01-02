@@ -1,8 +1,11 @@
 <a name="readme-top"></a>
 
 <div align="center">
+# Project: Scrumptious Meals
 
-  <h3><b>Leaderboard App</b></h3>
+## In this milestone We will Create the Scrumptious Meals: with APIs:
+
+> In this project, We will structure Scrumptious Meals Website app. The goal is to make it more organized by using APIs. We will also practice the use of APIs, Module, Jest Test and ES6 syntax that We have learned.
 
 </div>
 
@@ -29,9 +32,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Leaderboard App <a name="about-project"></a>
+# 📖 Scrumptious Meals app <a name="about-project"></a>
 
-> A simple leaderboard app from microverse curriculam.
+>  In this project, We will structure Scrumptious Meals Website app. The goal is to make it more organized by using APIs. We will also practice the use of APIs, Module, Jest Test and ES6 syntax that We have learned.
 
 **Leaderboard App**
 
