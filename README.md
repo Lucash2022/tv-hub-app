@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
-<div align="center">
-# Project: Scrumptious Meals
+<div align="left">
+## Project: Scrumptious Meals
 
 ## In this milestone We will Create the Scrumptious Meals: with APIs:
 
