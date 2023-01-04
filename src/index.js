@@ -12,7 +12,7 @@ const createPopUpDetails = (details) => {
   showModal.innerHTML = `
   <div class="pop-head">
   <h2 class = "showheading">${details.name}</h2>
-  <button type="button" class="cancel seeButtons" id="closeBtn">
+  <button type="button" class="cancel seeButtons">
            ×
          </button>
   </div>
@@ -20,7 +20,17 @@ const createPopUpDetails = (details) => {
   <div class="popup-top-section">
   <div class= 'modal-image'>
   <img src="${details.image.medium}"; alt="cover image" id="modal-cover"/>
-  </div>
+  <iframe width="600" height="295" id="${details.id === 69 ? 'showframe' : 'hideframe'}" src="https://www.youtube.com/embed/-WYdUaK54fU" title="Blacklist Season 1 - Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="600" height="295" id="${details.id === 28276 ? 'showframe' : 'hideframe'}" src="https://www.youtube.com/embed/ndl1W4ltcmg" title="THE WITCHER | MAIN TRAILER | NETFLIX" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="600" height="295"  id="${details.id === 38963 ? 'showframe' : 'hideframe'}" src="https://www.youtube.com/embed/aOC8E8z_ifw" title="The Mandalorian | Official Trailer | Disney+ | Streaming Nov. 12" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="600" height="295" id="${details.id === 37781 ? 'showframe' : 'hideframe'}" src="https://www.youtube.com/embed/BqqShroJH44" title="THE PERIPHERAL Official Trailer (2022)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="600" height="295" id="${details.id === 13 ? 'showframe' : 'hideframe'}" src="https://www.youtube.com/embed/IgVyroQjZbE" title="The Flash - Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="600" height="295" id="${details.id === 20263 ? 'showframe' : 'hideframe'}" src="https://www.youtube.com/embed/Ej24W8gcmXQ" title="The Orville | official trailer (2017)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="600" height="295" id="${details.id === 32938 ? 'showframe' : 'hideframe'}" src="https://www.youtube.com/embed/_HgC1TN8FVk" title="THE ROOKIE Official Trailer (HD) Nathan Fillion ABC Series" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="600" height="295" id="${details.id === 83 ? 'showframe' : 'hideframe'}" src="https://www.youtube.com/embed/_jgYEYERYFQ" title="32 Seasons | The Simpsons | Disney+" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="600" height="295" id="${details.id === 15299 ? 'showframe' : 'hideframe'}" src="https://www.youtube.com/embed/M1bhOaLV4FU" title="The Boys - Official Trailer | Prime Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="600" height="295" id="${details.id === 19809 ? 'showframe' : 'hideframe'}" src="https://www.youtube.com/embed/zfexbFwCBnE" title="THE RESIDENT Season 1 Trailer (2018) Medical TV Show HD" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ </div>
   <div class= "modal-head">
       <div class = "summary">${details.summary}</div>
       <div><span class="titles">Genre: </span> ${details.genres}</div>
@@ -67,8 +77,7 @@ class Shows {
       }
 
       displayShows = async () => {
-        await this.getShows(6);
-
+        await this.getShows('the');
         const showsList = this.shows.reduce((prev, curr) => {
           if (curr.show.image) {
             prev += `
@@ -101,11 +110,3 @@ class Shows {
 
 const series = new Shows();
 series.displayShows();
-
-const closeButton = document.getElementById('closeBtn');
-
-closeButton.addEventListener("click", myFunction);
-function myFunction() {
-  console.log('Hellow world')
-  alert("Hello! I am an alert box!!");
-}
