@@ -39,9 +39,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Scrumptious Meals app <a name="about-project"></a>
+# 📖 TV Hub app <a name="about-project"></a>
 
->  In this project, We will structure Scrumptious Meals Website app. The goal is to make it more organized by using APIs. We will also practice the use of APIs, Module, Jest Test and ES6 syntax that We have learned.
+>  The JavaScript capstone project (remember what they are?) is about building a TV hub web application based on an external API(TVmaze DB). You will select an API that provides data about a topic that you like and then build the webapp around it. The webapp will have 2 user interfaces .
 
 **Leaderboard App**
 
@@ -76,6 +76,9 @@
 
 - **Add comments to Tv shows**
 - **Add likes to TV shows**
+- **View youtube trailers of each TV show**
+- **Count and display the number of TV shows**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
