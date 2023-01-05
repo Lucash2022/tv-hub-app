@@ -1,4 +1,5 @@
 import { addCommentPopupEvent } from './displaypopup.js';
+import showsCounter from './itemscounter.js';
 
 class Shows {
   constructor() {
@@ -17,8 +18,6 @@ class Shows {
   getLikes = async () => {
     this.likes = await fetch(this.like_URL).then((response) => response.json());
   }
-
-  showsCounter = () => this.shows.length;
 
   displayShows = async () => {
     await this.getShows('the');
@@ -54,7 +53,7 @@ class Shows {
       return prev;
     }, '');
     document.querySelector('.showslist').innerHTML = showsList;
-    document.querySelector('.shows-ctr').innerHTML = this.showsCounter();
+    document.querySelector('.shows-ctr').innerHTML = showsCounter();
     addCommentPopupEvent();
     this.registerLikes();
   }
