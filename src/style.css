@@ -104,6 +104,14 @@ footer {
   font-family: fantasy;
 }
 
+.btn-reservations {
+  background: none;
+  border: 1px solid black;
+  box-shadow: 4px 7px 5px;
+  margin: 5px;
+  font-family: fantasy;
+}
+
 .window-popup {
   width: 90%;
   scroll-padding-top: inherit;
@@ -164,4 +172,9 @@ textarea {
 
 #hideframe {
   display: none;
+}
+
+.likes {
+  display: flex;
+  justify-content: center;
 }
