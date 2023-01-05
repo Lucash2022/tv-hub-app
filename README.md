@@ -78,6 +78,7 @@
 - **Add likes to TV shows**
 - **View youtube trailers of each TV show**
 - **Count and display the number of TV shows**
+- **Count and display the number of Comments on each popup**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -92,7 +93,7 @@
 
 > Add a link to your deployed project.
 
-- <a href="https://lucash2022.github.io/tv-hub/dist/" target="_blank">Live Demo Link</a>
+- <a href="https://lucash2022.github.io/tv-hub-app/dist/" target="_blank">Live Demo Link</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
