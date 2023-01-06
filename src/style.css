@@ -24,9 +24,9 @@ body {
 
 nav {
   display: flex;
-  align-items: baseline;
   padding: 20px;
   background-color: rgba(0, 0, 0, 0.4);
+  height: 60px;
 }
 
 nav a {
@@ -37,6 +37,19 @@ nav a {
 
 .logo {
   margin: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img {
+  height: 100px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .pages {
@@ -44,6 +57,8 @@ nav a {
   position: relative;
   left: 30%;
   gap: 50px;
+  justify-content: center;
+  align-items: center;
 }
 
 .pages li {
@@ -90,9 +105,11 @@ footer {
 
 .comments {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   margin: 5px;
+  color: red;
+  font-weight: 600;
+  text-decoration: underline;
 }
 
 .btn {
@@ -103,12 +120,9 @@ footer {
   font-family: fantasy;
 }
 
-.btn-reservations {
-  background: none;
-  border: 1px solid black;
-  box-shadow: 4px 7px 5px;
-  margin: 5px;
-  font-family: fantasy;
+.comment {
+  display: flex;
+  justify-content: center;
 }
 
 .pop-body {
@@ -120,12 +134,20 @@ footer {
   align-items: center;
   background-color: rgba(191, 191, 200, 0.9);
   width: 90%;
+  margin: 45px;
+  margin-top: 25px;
 }
 
 .pop-head {
   display: flex;
   justify-content: space-between;
   width: 100%;
+}
+
+.modal-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .cancel {
@@ -138,6 +160,27 @@ footer {
   justify-content: right;
   align-items: center;
   color: #67798e;
+}
+
+.modal-image {
+  display: flex;
+  justify-content: center;
+}
+
+.summary {
+  padding: 15px;
+  display: flex;
+  align-items: center;
+}
+
+#sumTxt {
+  margin: 5px;
+  font-weight: 600;
+  color: red;
+}
+
+.con-com {
+  padding: 5px;
 }
 
 label,
@@ -155,6 +198,13 @@ textarea {
   box-shadow: 1px 1px 1px #999;
 }
 
+.atc {
+  display: flex;
+  justify-content: center;
+  color: red;
+  text-decoration: underline;
+}
+
 .titles {
   color: #23a6d5;
 }
@@ -168,6 +218,8 @@ textarea {
   flex-direction: column;
   gap: 10px;
   margin: 10px;
+  border: 2px solid greenyellow;
+  padding: 5px;
 }
 
 .submit-btn {
@@ -185,4 +237,7 @@ textarea {
 
 .comment-li {
   list-style: none;
+  padding: 3px;
+  margin: 3px;
+  border: 2px solid greenyellow;
 }
