@@ -3,5 +3,5 @@ const commentsCounter = () => {
   return numb;
 };
 
-export const itemCount = (showList) => showList.length;
+export const commentCount = (commentList) => commentList.length;
 export default commentsCounter;

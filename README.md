@@ -20,22 +20,25 @@
 
 # 📗 Table of Contents
 
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
-- [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Deployment](#triangular_flag_on_post-deployment)
-- [👥 Authors](#authors)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ](#faq)
-- [📝 License](#license)
+- [� Table of Contents](#-table-of-contents)
+- [📖 TV Hub app ](#-tv-hub-app-)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+      - [🔭 Future Features ](#-future-features-)
+  - [🚀 Live Demo ](#-live-demo-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Setup](#setup)
+    - [Install](#install)
+    - [Usage](#usage)
+    - [Testing](#testing)
+    - [Deployment](#deployment)
+  - [👥 Author](#-author)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [❓ FAQ ](#-faq-)
+  - [📝 License ](#-license-)
 
 <!-- PROJECT DESCRIPTION -->
 
@@ -93,7 +96,7 @@
 
 > Add a link to your deployed project.
 
-- <a href="https://lucash2022.github.io/tv-hub-app/dist/" target="_blank">Live Demo Link</a>
+- <a href="https://wahaj-ali.github.io/tv-hub/dist/" target="_blank">Live Demo Link</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -128,6 +131,14 @@ To run the project in a development server, execute the following command:
   npm start
 ```
 
+### Testing
+
+To run the tests in a development server, execute the following command:
+
+```sh
+  npm test
+```
+
 To to build for the production, execute the following command:
 
 ```sh
@@ -142,7 +153,7 @@ You can deploy this project using [Github Pages](https://docs.github.com/en/page
 
 <!-- AUTHORS -->
 
-## 👥 Author
+## 👥 Authors
 
 <a name="authors"></a>
 
@@ -160,6 +171,9 @@ You can deploy this project using [Github Pages](https://docs.github.com/en/page
 
 <img src="/images/github.svg" alt="logo" width="18"  height="18" />[githubhandle](https://github.com/Wahaj-Ali)
 <br>
+<img src="/images/twitter.svg" alt="logo" width="18"  height="18" /> [twitterhandle](https://twitter.com/Ali96Wahaj
+)
+<br>
 <img src="/images/linkedin.svg" alt="logo" width="18"  height="18" />[linkedIn](https://www.linkedin.com/in/wahaj-ali96/)
   <br>
 
@@ -176,7 +190,7 @@ You can deploy this project using [Github Pages](https://docs.github.com/en/page
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Wahaj-Ali/tv-hub/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -192,7 +206,11 @@ If you like this project give me a star.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-Thanks to my friend [Lucas](https://github.com/Lucash2022) for a good insight of the code.
+Thanks to our friend [Kashif](https://github.com/Kashif-Saleem-Ghuman) for a good insight file loaders and styling.
+
+Thanks to our friend [Alex](https://github.com/Osoro254Alex) for a good insight of the overview of the project.
+
+Thanks to our friend [Ernest Korir](https://github.com/ernestkorir) for a good insight of the code.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

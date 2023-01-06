@@ -14,6 +14,9 @@ export const renderComment = async (id, name, comment) => {
 const fetchComment = async (id) => {
   const reponseComment = await fetch(`${commUrl}?item_id=${id}`);
   const itemData = await reponseComment.json();
+  if(!reponseComment){
+    return null;
+  }
   return itemData;
 };
 
