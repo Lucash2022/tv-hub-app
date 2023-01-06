@@ -89,11 +89,11 @@ footer {
   padding: 10px;
   margin: 10px;
   box-shadow: 3px 3px 5px;
-  transition: all 0.5s ease-in-out; 
+  transition: all 0.5s ease-in-out;
 }
 
 .shows:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .show-name {
@@ -245,4 +245,8 @@ textarea {
   padding: 3px;
   margin: 3px;
   border: 2px solid greenyellow;
+}
+
+.no_comment_li {
+  list-style: none;
 }

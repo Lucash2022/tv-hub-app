@@ -14,7 +14,8 @@ export const renderComment = async (id, name, comment) => {
 const fetchComment = async (id) => {
   const reponseComment = await fetch(`${commUrl}?item_id=${id}`);
   const itemData = await reponseComment.json();
-  if(!reponseComment){
+
+  if (!reponseComment.ok) {
     return null;
   }
   return itemData;
@@ -36,9 +37,15 @@ export const generateComment = async (id) => {
   commentUl.innerHTML = '';
   const comments = await fetchComment(id);
 
-  comments.forEach((comment) => {
-    commentUl.append(createComments(comment));
-  });
-
+  if (comments === null) {
+    const noCommentLi = document.createElement('p');
+    noCommentLi.className = 'no_comment_li';
+    noCommentLi.textContent = 'Be the first to comment';
+    commentUl.append(noCommentLi);
+  } else {
+    comments.forEach((comment) => {
+      commentUl.append(createComments(comment));
+    });
+  }
   return commentUl;
 };
