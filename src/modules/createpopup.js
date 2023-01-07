@@ -37,8 +37,8 @@ export const createPopUpDetails = (details) => {
           <a id="${details.id === 19809 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/embed/zfexbFwCBnE" target="_blank">THE RESIDENT  Youtube link</a>
           <a id="${details.id === 42827 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/embed/Z6pdYkqeT7A" target="_blank">THE SANDMAN Youtube link</a>  
         </div>
-        <div><span class="titles">Type: </span> ${details.type}</div>
-        <div><span class="titles">Rating: </span> ${details.rating.average}</div>
+        <div><span class="titles">ID: </span> ${details.id}</div>
+        <div><span class="titles">IMDb Rating: </span> ${details.rating.average}</div>
     </div>
     
     <p class="comments">Comments(<span class="comments-ctr"></span>)</p>

@@ -35,6 +35,11 @@ nav a {
   font-size: 25px;
 }
 
+nav .s {
+  color: black;
+  font-size: 25px;
+}
+
 .logo {
   margin: 25px;
   display: flex;
