@@ -1,7 +1,9 @@
-const commUrl = 'https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/CvrqAzoVr9PCSxK9Vq6U/comments';
+const apiKey = process.env.API_KEY;
+const end = '/comments';
+const commUrl = 'https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/';
 
 export const renderComment = async (id, name, comment) => {
-  const response = await fetch(`${commUrl}`, {
+  const response = await fetch(`${commUrl}${apiKey}${end}`, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
@@ -12,7 +14,7 @@ export const renderComment = async (id, name, comment) => {
 };
 
 const fetchComment = async (id) => {
-  const reponseComment = await fetch(`${commUrl}?item_id=${id}`);
+  const reponseComment = await fetch(`${commUrl}${apiKey}${end}?item_id=${id}`);
   const itemData = await reponseComment.json();
 
   if (!reponseComment.ok) {
@@ -23,14 +25,16 @@ const fetchComment = async (id) => {
 
 /* eslint-disable */
 const createComments = ({ comment, username, creation_date }) => {
+  const cDate = creation_date;
+  /* eslint-enable */
   const commentli = document.createElement('li');
   commentli.className = 'comment-li';
   commentli.innerHTML = `
-   <span>${creation_date}: </span><span>${username}: </span><span>${comment}</span>
+   <span>${cDate}: </span><span>${username}: </span><span>${comment}</span>
   `;
   return commentli;
 };
-/* eslint-enable */
+
 export const generateComment = async (id) => {
   const commentUl = document.createElement('ul');
   commentUl.id = 'comments-section';
