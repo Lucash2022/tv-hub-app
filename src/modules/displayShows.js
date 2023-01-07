@@ -21,8 +21,8 @@ class Shows {
     this.likes = await fetch(this.like_URL).then((response) => response.json());
   }
 
-  displayShows = async () => {
-    await this.getShows('the');
+  displayShows = async (search) => {
+    await this.getShows(search);
     await this.getLikes();
 
     const showsList = this.shows.reduce((prev, curr) => {
