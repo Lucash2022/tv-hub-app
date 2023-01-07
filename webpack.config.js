@@ -11,6 +11,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './src/index.html',
     }),
+    new Dotenv(),
   ],
   output: {
     filename: '[name].js',
