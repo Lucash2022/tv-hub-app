@@ -83,7 +83,8 @@
 - **View youtube trailers of each TV show**
 - **Count and display the number of TV shows**
 - **Count and display the number of Comments on each popup**
-- **hide API using Environment variables**
+- **Hide API using Environment variables**
+- **Search for sepcific TV shows**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
