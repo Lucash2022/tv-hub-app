@@ -97,7 +97,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- <a href="https://wahaj-ali.github.io/tv-hub/dist/" target="_blank">Live Demo Link</a>
+- <a href="https://lucash2022.github.io/tv-hub-app/dist/" target="_blank">Live Demo Link</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
