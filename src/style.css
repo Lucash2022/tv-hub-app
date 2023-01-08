@@ -156,7 +156,7 @@ footer {
   position: fixed;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   width: 80%;
   height: 70%;
   background-color: #fff;
@@ -288,6 +288,20 @@ textarea {
   gap: 4px;
 }
 
+.s-link {
+  background: #0e5585;
+  color: white;
+  padding: 1%;
+  font-size: 1rem;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: max-content;
+  text-decoration: none;
+  gap: 4px;
+}
+
 input {
   border: 0.5px solid rgb(224, 224, 224);
   height: 1.5rem;
@@ -304,7 +318,7 @@ input {
   }
 
   .window-popup {
-    width: 50% I !important;
+    width: 50% i !important;
     height: 90% !important;
   }
 

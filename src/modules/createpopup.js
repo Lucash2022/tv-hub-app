@@ -57,6 +57,21 @@ export const createPopUpDetails = (details) => {
         <a class = "yt-link" id="${details.id === 16579 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/watch?v=dVLiDETfx1c" target="_blank"><i class="fa-brands fa-youtube"></i> Watch on YouTube</a>
         <a class = "yt-link" id="${details.id === 116 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/watch?v=tYhFAOUt1Fs" target="_blank"><i class="fa-brands fa-youtube"></i> Watch on YouTube</a>
         
+        <a class = "yt-link" id="${details.id === 118 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/watch?v=MczMB8nU1sY" target="_blank"><i class="fa-brands fa-youtube"></i> Watch on YouTube</a>
+        <a class = "yt-link" id="${details.id === 53266 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/watch?v=4igm6CEgo-k" target="_blank"><i class="fa-brands fa-youtube"></i> Watch on YouTube</a>
+        <a class = "s-link" id="${details.id === 53266 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/bmf-0m7z5/2-1" target="_blank"><i class="fa-brands fa-youtube"></i> Season 2 Episode 1</a>
+
+        <a class = "yt-link" id="${details.id === 59344 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/watch?v=aaQSScwZPbA" target="_blank"><i class="fa-brands fa-youtube"></i> Watch on YouTube</a>
+        <a class = "s-link" id="${details.id === 59344 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/tulsa-king-9j9lq/1-1" target="_blank"><i class="fa-brands fa-youtube"></i> Episode 1</a>
+        <a class = "s-link" id="${details.id === 59344 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/tulsa-king-9j9lq/1-2" target="_blank"><i class="fa-brands fa-youtube"></i> Episode 2</a>
+        <a class = "s-link" id="${details.id === 59344 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/tulsa-king-9j9lq/1-3" target="_blank"><i class="fa-brands fa-youtube"></i> Episode 3</a>
+        <a class = "s-link" id="${details.id === 59344 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/tulsa-king-9j9lq/1-4" target="_blank"><i class="fa-brands fa-youtube"></i> Episode 4</a>
+        <a class = "s-link" id="${details.id === 59344 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/tulsa-king-9j9lq/1-5" target="_blank"><i class="fa-brands fa-youtube"></i> Episode 5</a>
+        <a class = "s-link" id="${details.id === 59344 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/tulsa-king-9j9lq/1-6" target="_blank"><i class="fa-brands fa-youtube"></i> Episode 6</a>
+        <a class = "s-link" id="${details.id === 59344 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/tulsa-king-9j9lq/1-7" target="_blank"><i class="fa-brands fa-youtube"></i> Episode 7</a>
+        <a class = "s-link" id="${details.id === 59344 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/tulsa-king-9j9lq/1-8" target="_blank"><i class="fa-brands fa-youtube"></i> Episode 8</a>
+        <a class = "s-link" id="${details.id === 59344 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/tulsa-king-9j9lq/1-9" target="_blank"><i class="fa-brands fa-youtube"></i> Episode 9</a>
+
         <div><span class="titles">Genre: </span> ${details.genres}</div>
         <div><span class="titles">OfficialSite: </span> <a href="${details.officialSite}" target="_blank">OfficialSite</a></div>
 
