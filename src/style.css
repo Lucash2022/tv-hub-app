@@ -83,7 +83,7 @@ footer {
 
 .showslist {
   display: grid;
-  grid-template-columns: auto auto auto auto auto;
+  grid-template-columns: repeat(5, 1fr);
   align-content: center;
   justify-content: space-evenly;
   padding: 20px;
@@ -97,11 +97,12 @@ footer {
   margin: 10px;
   box-shadow: 3px 3px 5px;
   transition: all 0.5s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-/* .shows:hover {
-  transform: scale(1.1);
-} */
 
 .show-name {
   display: flex;
@@ -109,6 +110,10 @@ footer {
   align-items: center;
   gap: 0.9rem;
   margin: 5%;
+}
+
+.show-name span {
+  font-weight: bold;
 }
 
 .comments {
@@ -144,8 +149,7 @@ footer {
   align-items: center;
   background-color: rgba(255, 255, 255);
   width: 90%;
-  margin: 45px;
-  margin-top: 25px;
+  margin: 4% auto;
   border-radius: 10px;
 }
 
@@ -153,6 +157,7 @@ footer {
   display: flex;
   justify-content: space-between;
   width: 100%;
+  align-items: center;
 }
 
 .modal-head {
@@ -162,15 +167,14 @@ footer {
 }
 
 .cancel {
-  font-size: 50px;
-  width: 40px;
-  height: 40px;
+  font-size: 2.5rem;
+
   font-weight: 500;
   border: none;
   display: flex;
-  justify-content: right;
   align-items: center;
   color: #67798e;
+  background: transparent;
 }
 
 .modal-image {
@@ -251,8 +255,7 @@ textarea {
 
 .comment-li {
   list-style: none;
-  padding: 3px;
-  margin: 3px;
+  margin: 2% 0;
 }
 
 .no_comment_li {
@@ -280,4 +283,42 @@ input {
   border-radius: 5px;
   margin: 2px;
   padding: 2%;
+}
+
+
+@media only screen and (max-width: 600px) {
+  nav {
+    display: none;
+  }
+
+  .showslist {
+    grid-template-columns: 1fr;
+    padding: 0;
+    margin: 5%;
+  }
+
+  .shows {
+    height: 60vh;
+  }
+
+  .pop-up {
+    margin: 2%;
+  }
+
+  .pop-head {
+    margin: 4% 0;
+  }
+
+  #sumTxt {
+    font-size: 1.2rem;
+    margin: 4%;
+  }
+
+  input {
+    height: 3rem;
+  }
+
+  .submit-btn {
+    width: 50%;
+  }
 }
