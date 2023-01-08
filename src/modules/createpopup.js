@@ -1,5 +1,5 @@
 /* eslint-disable */
-import { renderComment,generateComment } from "./rendercomment.js";
+import { renderComment, generateComment } from "./rendercomment.js";
 import commentsCounter from "./commentscounter.js";
 
 export const createPopUpDetails = (details) => {
@@ -60,16 +60,17 @@ export const createPopUpDetails = (details) => {
         <div><span class="titles">IMDb Rating: </span> ${details.rating.average}</div>
     </div>
     
+    <div class="comment-container">
+
     <p class="comments">Comments(<span class="comments-ctr"></span>)</p>
     <div class="con-comm">
     </div>
-    <p class="atc">Add To Comment</p>
     <form class="form" action="">
     <input type="text" class="name" id="user" placeholder="Enter Your Name" required>
-    <textarea id="comment" cols = 30 rows = 5 placeholder="Add your Comment" required></textarea>
+    <input id="comment" cols = 30 rows = 5 placeholder="Add your Comment" required></input>
     <button type="submit" class="submit-btn" id="${details.id}">Add Comment</button>
     </form>
-  
+  </div>
     </div>
   `;
   return showModal;
