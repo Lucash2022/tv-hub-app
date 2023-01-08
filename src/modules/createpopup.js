@@ -71,9 +71,11 @@ export const createPopUpDetails = (details) => {
         <a class = "yt-link" id="${details.id === 116 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/watch?v=tYhFAOUt1Fs" target="_blank"><i class="fa-brands fa-youtube"></i> Watch on YouTube</a>
         
         <a class = "yt-link" id="${details.id === 118 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/watch?v=MczMB8nU1sY" target="_blank"><i class="fa-brands fa-youtube"></i> Watch on YouTube</a>
-        <a class = "yt-link" id="${details.id === 53266 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/watch?v=4igm6CEgo-k" target="_blank"><i class="fa-brands fa-youtube"></i> Watch on YouTube</a>
+        <div class = "season">
+        <a class = "yt-link BMF" id="${details.id === 53266 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/watch?v=4igm6CEgo-k" target="_blank"><i class="fa-brands fa-youtube"></i> Watch on YouTube</a>
         <a class = "s-link" id="${details.id === 53266 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/bmf-0m7z5/2-1" target="_blank"><i class="fa-brands fa-youtube"></i> Season 2 Episode 1</a>
-
+        </div>
+        <div class = "season">
         <a class = "yt-link" id="${details.id === 59344 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/watch?v=aaQSScwZPbA" target="_blank"><i class="fa-brands fa-youtube"></i> Watch on YouTube</a>
         <a class = "s-link" id="${details.id === 59344 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/tulsa-king-9j9lq/1-1" target="_blank"><i class="fa-brands fa-youtube"></i> Episode 1</a>
         <a class = "s-link" id="${details.id === 59344 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/tulsa-king-9j9lq/1-2" target="_blank"><i class="fa-brands fa-youtube"></i> Episode 2</a>
@@ -84,8 +86,33 @@ export const createPopUpDetails = (details) => {
         <a class = "s-link" id="${details.id === 59344 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/tulsa-king-9j9lq/1-7" target="_blank"><i class="fa-brands fa-youtube"></i> Episode 7</a>
         <a class = "s-link" id="${details.id === 59344 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/tulsa-king-9j9lq/1-8" target="_blank"><i class="fa-brands fa-youtube"></i> Episode 8</a>
         <a class = "s-link" id="${details.id === 59344 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/tulsa-king-9j9lq/1-9" target="_blank"><i class="fa-brands fa-youtube"></i> Episode 9</a>
-        
-        <a class = "yt-link jack_ryan" id="${details.id === 5079 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/watch?v=c3lQ53e2j6Q" target="_blank"><i class="fa-brands fa-youtube"></i> Watch on YouTube</a>
+        </div>
+
+        <div class = "season">
+        <a class = "yt-link jack_ryan" id="${details.id === 5079 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/watch?v=c3lQ53e2j6Q" target="_blank"><i class="fa-brands fa-youtube"></i> Season 1</a>
+        <a class = "s-link" id="${details.id === 5079 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/tom-clancys-jack-ryan-j2kpy/1-1" target="_blank"><i class="fa-brands fa-youtube"></i> Season 1  Episode 1</a>
+        <a class = "s-link" id="${details.id === 5079 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/tom-clancys-jack-ryan-j2kpy/1-2" target="_blank"><i class="fa-brands fa-youtube"></i> Season 1  Episode 2</a>
+        <a class = "s-link" id="${details.id === 5079 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/tom-clancys-jack-ryan-j2kpy/1-3" target="_blank"><i class="fa-brands fa-youtube"></i> Season 1  Episode 3</a>
+        <a class = "s-link" id="${details.id === 5079 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/tom-clancys-jack-ryan-j2kpy/1-4" target="_blank"><i class="fa-brands fa-youtube"></i> Season 1  Episode 4</a>
+        <a class = "s-link" id="${details.id === 5079 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/tom-clancys-jack-ryan-j2kpy/1-5" target="_blank"><i class="fa-brands fa-youtube"></i> Season 1  Episode 5</a>
+        <a class = "s-link" id="${details.id === 5079 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/tom-clancys-jack-ryan-j2kpy/1-6" target="_blank"><i class="fa-brands fa-youtube"></i> Season 1  Episode 6</a>
+        <a class = "s-link" id="${details.id === 5079 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/tom-clancys-jack-ryan-j2kpy/1-7" target="_blank"><i class="fa-brands fa-youtube"></i> Season 1  Episode 7</a>
+        <a class = "s-link" id="${details.id === 5079 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/tom-clancys-jack-ryan-j2kpy/1-8" target="_blank"><i class="fa-brands fa-youtube"></i> Season 1  Episode 8</a>
+        </div>
+
+        <div class = "season">
+        <a class = "yt-link jack_ryan" id="${details.id === 5079 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/watch?v=c3lQ53e2j6Q" target="_blank"><i class="fa-brands fa-youtube"></i> Season 2</a>
+        <a class = "s-link" id="${details.id === 5079 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/tom-clancys-jack-ryan-j2kpy/2-1" target="_blank"><i class="fa-brands fa-youtube"></i> Season 2  Episode 1</a>
+        <a class = "s-link" id="${details.id === 5079 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/tom-clancys-jack-ryan-j2kpy/2-2" target="_blank"><i class="fa-brands fa-youtube"></i> Season 2  Episode 2</a>
+        <a class = "s-link" id="${details.id === 5079 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/tom-clancys-jack-ryan-j2kpy/2-3" target="_blank"><i class="fa-brands fa-youtube"></i> Season 2  Episode 3</a>
+        <a class = "s-link" id="${details.id === 5079 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/tom-clancys-jack-ryan-j2kpy/2-4" target="_blank"><i class="fa-brands fa-youtube"></i> Season 2  Episode 4</a>
+        <a class = "s-link" id="${details.id === 5079 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/tom-clancys-jack-ryan-j2kpy/2-5" target="_blank"><i class="fa-brands fa-youtube"></i> Season 2 Episode 5</a>
+        <a class = "s-link" id="${details.id === 5079 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/tom-clancys-jack-ryan-j2kpy/2-6" target="_blank"><i class="fa-brands fa-youtube"></i> Season 2  Episode 6</a>
+        <a class = "s-link" id="${details.id === 5079 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/tom-clancys-jack-ryan-j2kpy/2-7" target="_blank"><i class="fa-brands fa-youtube"></i> Season 2  Episode 7</a>
+        <a class = "s-link" id="${details.id === 5079 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/tom-clancys-jack-ryan-j2kpy/2-8" target="_blank"><i class="fa-brands fa-youtube"></i> Season 2  Episode 8</a>
+        </div>
+        <div class = "season">
+        <a class = "yt-link jack_ryan" id="${details.id === 5079 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/watch?v=c3lQ53e2j6Q" target="_blank"><i class="fa-brands fa-youtube"></i> Season 3</a>
         <a class = "s-link" id="${details.id === 5079 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/tom-clancys-jack-ryan-j2kpy/3-1" target="_blank"><i class="fa-brands fa-youtube"></i> Season 3  Episode 1</a>
         <a class = "s-link" id="${details.id === 5079 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/tom-clancys-jack-ryan-j2kpy/3-2" target="_blank"><i class="fa-brands fa-youtube"></i> Season 3  Episode 2</a>
         <a class = "s-link" id="${details.id === 5079 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/tom-clancys-jack-ryan-j2kpy/3-3" target="_blank"><i class="fa-brands fa-youtube"></i> Season 3  Episode 3</a>
@@ -94,8 +121,9 @@ export const createPopUpDetails = (details) => {
         <a class = "s-link" id="${details.id === 5079 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/tom-clancys-jack-ryan-j2kpy/3-6" target="_blank"><i class="fa-brands fa-youtube"></i> Season 3  Episode 6</a>
         <a class = "s-link" id="${details.id === 5079 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/tom-clancys-jack-ryan-j2kpy/3-7" target="_blank"><i class="fa-brands fa-youtube"></i> Season 3  Episode 7</a>
         <a class = "s-link" id="${details.id === 5079 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/tom-clancys-jack-ryan-j2kpy/3-8" target="_blank"><i class="fa-brands fa-youtube"></i> Season 3  Episode 8</a>
-       
-        <a class = "yt-link younng_sheldon" id="${details.id === 26020 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/watch?v=gCy_GJvTmG8" target="_blank"><i class="fa-brands fa-youtube"></i> Watch on YouTube</a>
+        </div>
+        <div class = "season">
+        <a class = "yt-link younng_sheldon" id="${details.id === 26020 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/watch?v=gCy_GJvTmG8" target="_blank"><i class="fa-brands fa-youtube"></i> Season 6</a>
         <a class = "s-link" id="${details.id === 26020 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/young-sheldon-j20oy/6-1" target="_blank"><i class="fa-brands fa-youtube"></i> Season 6  Episode 1</a>
         <a class = "s-link" id="${details.id === 26020 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/young-sheldon-j20oy/6-2" target="_blank"><i class="fa-brands fa-youtube"></i> Season 6  Episode 2</a>
         <a class = "s-link" id="${details.id === 26020 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/young-sheldon-j20oy/6-3" target="_blank"><i class="fa-brands fa-youtube"></i> Season 6  Episode 3</a>
@@ -105,8 +133,9 @@ export const createPopUpDetails = (details) => {
         <a class = "s-link" id="${details.id === 26020 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/young-sheldon-j20oy/6-7" target="_blank"><i class="fa-brands fa-youtube"></i> Season 6  Episode 7</a>
         <a class = "s-link" id="${details.id === 26020 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/young-sheldon-j20oy/6-8" target="_blank"><i class="fa-brands fa-youtube"></i> Season 6  Episode 8</a>
         <a class = "s-link" id="${details.id === 26020 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/young-sheldon-j20oy/6-9" target="_blank"><i class="fa-brands fa-youtube"></i> Season 6  Episode 9</a>
-
-        <a class = "yt-link Gotham" id="${details.id === 11 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/watch?v=VwOPA2upeCA" target="_blank"><i class="fa-brands fa-youtube"></i> Watch on YouTube</a>
+        </div>
+        <div class = "season">
+        <a class = "yt-link Gotham" id="${details.id === 11 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/watch?v=VwOPA2upeCA" target="_blank"><i class="fa-brands fa-youtube"></i> Season 5</a>
         <a class = "s-link" id="${details.id === 11 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/gotham-ykzqz/5-1" target="_blank"><i class="fa-brands fa-youtube"></i> Season 5  Episode 1</a>
         <a class = "s-link" id="${details.id === 11 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/gotham-ykzqz/5-2" target="_blank"><i class="fa-brands fa-youtube"></i> Season 5  Episode 2</a>
         <a class = "s-link" id="${details.id === 11 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/gotham-ykzqz/5-3" target="_blank"><i class="fa-brands fa-youtube"></i> Season 5  Episode 3</a>
@@ -119,7 +148,7 @@ export const createPopUpDetails = (details) => {
         <a class = "s-link" id="${details.id === 11 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/gotham-ykzqz/5-10" target="_blank"><i class="fa-brands fa-youtube"></i> Season 5  Episode 10</a>
         <a class = "s-link" id="${details.id === 11 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/gotham-ykzqz/5-11" target="_blank"><i class="fa-brands fa-youtube"></i> Season 5  Episode 11</a>
         <a class = "s-link" id="${details.id === 11 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/gotham-ykzqz/5-12" target="_blank"><i class="fa-brands fa-youtube"></i> Season 5  Episode 12</a>
-
+      </div>
       <div class = "season">
       <a class = "yt-link younng_sheldon" id="${details.id === 1601 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/watch?v=tPWDioSdsHc" target="_blank"><i class="fa-brands fa-youtube"></i> Season 4</a>
         <a class = "s-link" id="${details.id === 1601 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/mind-your-language-506m/1-1" target="_blank"><i class="fa-brands fa-youtube"></i> Season 1  Episode 1</a>
@@ -233,6 +262,12 @@ export const createPopUpDetails = (details) => {
         <a class = "s-link" id="${details.id === 40695 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/fbi-most-wanted-lx296/4-7" target="_blank"><i class="fa-brands fa-youtube"></i> Season 4  Episode 7</a>
         <a class = "s-link" id="${details.id === 40695 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/fbi-most-wanted-lx296/4-8" target="_blank"><i class="fa-brands fa-youtube"></i> Season 4  Episode 8</a>
         <a class = "s-link" id="${details.id === 40695 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/fbi-most-wanted-lx296/4-9" target="_blank"><i class="fa-brands fa-youtube"></i> Season 4  Episode 9</a>
+ </div>
+
+ <div = "season">
+ <a class = "yt-link The_Last_OF-_US" id="${details.id === 46562 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/watch?v=uLtkt8BonwM" target="_blank"><i class="fa-brands fa-youtube"></i> Season 1</a>
+ <a class = "s-link" id="${details.id === 46562 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/watch?v=uLtkt8BonwM" target="_blank"><i class="fa-brands fa-youtube"></i> Season 1 Episode 1 available only from 15 January 2023</a>
+
  </div>
         </section>
         <div><span class="titles">Genre: </span> ${details.genres}</div>
