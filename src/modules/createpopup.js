@@ -84,7 +84,7 @@ export const createPopUpDetails = (details) => {
         <a class = "s-link" id="${details.id === 59344 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/tulsa-king-9j9lq/1-8" target="_blank"><i class="fa-brands fa-youtube"></i> Episode 8</a>
         <a class = "s-link" id="${details.id === 59344 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/tulsa-king-9j9lq/1-9" target="_blank"><i class="fa-brands fa-youtube"></i> Episode 9</a>
         
-        <a class = "yt-link" id="${details.id === 5079 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/watch?v=c3lQ53e2j6Q" target="_blank"><i class="fa-brands fa-youtube"></i> Watch on YouTube</a>
+        <a class = "yt-link jack_ryan" id="${details.id === 5079 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/watch?v=c3lQ53e2j6Q" target="_blank"><i class="fa-brands fa-youtube"></i> Watch on YouTube</a>
         <a class = "s-link" id="${details.id === 5079 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/tom-clancys-jack-ryan-j2kpy/3-1" target="_blank"><i class="fa-brands fa-youtube"></i> Season 3  Episode 1</a>
         <a class = "s-link" id="${details.id === 5079 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/tom-clancys-jack-ryan-j2kpy/3-2" target="_blank"><i class="fa-brands fa-youtube"></i> Season 3  Episode 2</a>
         <a class = "s-link" id="${details.id === 5079 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/tom-clancys-jack-ryan-j2kpy/3-3" target="_blank"><i class="fa-brands fa-youtube"></i> Season 3  Episode 3</a>
@@ -94,6 +94,17 @@ export const createPopUpDetails = (details) => {
         <a class = "s-link" id="${details.id === 5079 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/tom-clancys-jack-ryan-j2kpy/3-7" target="_blank"><i class="fa-brands fa-youtube"></i> Season 3  Episode 7</a>
         <a class = "s-link" id="${details.id === 5079 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/tom-clancys-jack-ryan-j2kpy/3-8" target="_blank"><i class="fa-brands fa-youtube"></i> Season 3  Episode 8</a>
        
+        <a class = "yt-link younng_sheldon" id="${details.id === 26020 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/watch?v=gCy_GJvTmG8" target="_blank"><i class="fa-brands fa-youtube"></i> Watch on YouTube</a>
+        <a class = "s-link" id="${details.id === 26020 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/young-sheldon-j20oy/6-1" target="_blank"><i class="fa-brands fa-youtube"></i> Season 6  Episode 1</a>
+        <a class = "s-link" id="${details.id === 26020 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/young-sheldon-j20oy/6-2" target="_blank"><i class="fa-brands fa-youtube"></i> Season 6  Episode 2</a>
+        <a class = "s-link" id="${details.id === 26020 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/young-sheldon-j20oy/6-3" target="_blank"><i class="fa-brands fa-youtube"></i> Season 6  Episode 3</a>
+        <a class = "s-link" id="${details.id === 26020 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/young-sheldon-j20oy/6-4" target="_blank"><i class="fa-brands fa-youtube"></i> Season 6  Episode 4</a>
+        <a class = "s-link" id="${details.id === 26020 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/young-sheldon-j20oy/6-5" target="_blank"><i class="fa-brands fa-youtube"></i> Season 6  Episode 5</a>
+        <a class = "s-link" id="${details.id === 26020 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/young-sheldon-j20oy/6-6" target="_blank"><i class="fa-brands fa-youtube"></i> Season 6  Episode 6</a>
+        <a class = "s-link" id="${details.id === 26020 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/young-sheldon-j20oy/6-7" target="_blank"><i class="fa-brands fa-youtube"></i> Season 6  Episode 7</a>
+        <a class = "s-link" id="${details.id === 26020 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/young-sheldon-j20oy/6-8" target="_blank"><i class="fa-brands fa-youtube"></i> Season 6  Episode 8</a>
+        <a class = "s-link" id="${details.id === 26020 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/young-sheldon-j20oy/6-9" target="_blank"><i class="fa-brands fa-youtube"></i> Season 6  Episode 9</a>
+
 
         <div><span class="titles">Genre: </span> ${details.genres}</div>
         <div><span class="titles">OfficialSite: </span> <a href="${details.officialSite}" target="_blank">OfficialSite</a></div>
