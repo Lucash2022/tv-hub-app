@@ -121,7 +121,7 @@ To get a local copy up and running, follow these steps.
 Clone this repository to your desired folder:
 
 ```sh
-  git clone git@github.com:portfolio-roy/leaderboard.git
+  git clone https://github.com/Lucash2022/tv-hub-app.git
   cd to-do-list
 ```
 
