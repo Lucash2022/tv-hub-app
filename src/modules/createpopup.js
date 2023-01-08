@@ -55,6 +55,17 @@ export const createPopUpDetails = (details) => {
         <a class = "yt-link" id="${details.id === 82 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/watch?v=KPLWWIOCOOQ&t=13s" target="_blank"><i class="fa-brands fa-youtube"></i> Watch on YouTube</a>
         <a class = "yt-link" id="${details.id === 44778 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/watch?v=DotnJ7tTA34" target="_blank"><i class="fa-brands fa-youtube"></i> Watch on YouTube</a>
         <a class = "yt-link" id="${details.id === 16579 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/watch?v=dVLiDETfx1c" target="_blank"><i class="fa-brands fa-youtube"></i> Watch on YouTube</a>
+        <a class = "s-link" id="${details.id === 16579 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/the-handmaids-tale-20j8l/5-1" target="_blank"><i class="fa-brands fa-youtube"></i> Season 5  Episode 1</a>
+        <a class = "s-link" id="${details.id === 16579 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/the-handmaids-tale-20j8l/5-2" target="_blank"><i class="fa-brands fa-youtube"></i> Season 5  Episode 2</a>
+        <a class = "s-link" id="${details.id === 16579 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/the-handmaids-tale-20j8l/5-3" target="_blank"><i class="fa-brands fa-youtube"></i> Season 5  Episode 3</a>
+        <a class = "s-link" id="${details.id === 16579 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/the-handmaids-tale-20j8l/5-4" target="_blank"><i class="fa-brands fa-youtube"></i> Season 5  Episode 4</a>
+        <a class = "s-link" id="${details.id === 16579 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/the-handmaids-tale-20j8l/5-5" target="_blank"><i class="fa-brands fa-youtube"></i> Season 5  Episode 5</a>
+        <a class = "s-link" id="${details.id === 16579 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/the-handmaids-tale-20j8l/5-6" target="_blank"><i class="fa-brands fa-youtube"></i> Season 5  Episode 6</a>
+        <a class = "s-link" id="${details.id === 16579 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/the-handmaids-tale-20j8l/5-7" target="_blank"><i class="fa-brands fa-youtube"></i> Season 5  Episode 7</a>
+        <a class = "s-link" id="${details.id === 16579 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/the-handmaids-tale-20j8l/5-8" target="_blank"><i class="fa-brands fa-youtube"></i> Season 5  Episode 8</a>
+        <a class = "s-link" id="${details.id === 16579 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/the-handmaids-tale-20j8l/5-9" target="_blank"><i class="fa-brands fa-youtube"></i> Season 5  Episode 9</a>
+        <a class = "s-link" id="${details.id === 16579 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/the-handmaids-tale-20j8l/5-10" target="_blank"><i class="fa-brands fa-youtube"></i> Season 5 Episode 10</a>
+        
         <a class = "yt-link" id="${details.id === 116 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/watch?v=tYhFAOUt1Fs" target="_blank"><i class="fa-brands fa-youtube"></i> Watch on YouTube</a>
         
         <a class = "yt-link" id="${details.id === 118 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/watch?v=MczMB8nU1sY" target="_blank"><i class="fa-brands fa-youtube"></i> Watch on YouTube</a>
