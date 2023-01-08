@@ -91,7 +91,8 @@
 
 #### 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Change styles**
+- [ ] **Search for Movies**
+- [ ] **Watch episodes of the Series**
 
 <!-- LIVE DEMO -->
 
