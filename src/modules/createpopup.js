@@ -22,8 +22,6 @@ export const createPopUpDetails = (details) => {
    </div>
     <div class= "modal-head">
         <div class = "summary"><p id="sumTxt">Summary:</p>   ${details.summary}</div>
-        <div><span class="titles">Genre: </span> ${details.genres}</div>
-        <div><span class="titles">OfficialSite: </span> <a href="${details.officialSite}" target="_blank">OfficialSite</a></div>
         <a class = "yt-link" id="${details.id === 69 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/embed/-WYdUaK54fU" target="_blank"><i class="fa-brands fa-youtube"></i> Watch on YouTube</a>
         <a class = "yt-link" id="${details.id === 28276 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/embed/ndl1W4ltcmg" target="_blank"><i class="fa-brands fa-youtube"></i> Watch on YouTube</a>
         <a class = "yt-link" id="${details.id === 38963 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/embed/aOC8E8z_ifw" target="_blank"><i class="fa-brands fa-youtube"></i> Watch on YouTube</a>
@@ -51,11 +49,9 @@ export const createPopUpDetails = (details) => {
         <a class = "yt-link" id="${details.id === 1 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/watch?v=f_Y5YeYrqUk" target="_blank"><i class="fa-brands fa-youtube"></i> Watch on YouTube</a>        
         <a class = "yt-link" id="${details.id === 32158 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/watch?v=_h3NFrBsJAM" target="_blank"><i class="fa-brands fa-youtube"></i> Watch on YouTube</a>
         
-        <a class = "yt-link" id="${details.id === 44242 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/watch?v=ZkftnbMA2Hs&list=PLd4nhnkLAsvybAabQKnEHww9-AZZTFk1s" target="_blank"><i class="fa-brands fa-youtube"></i> Watch on YouTube</a>
-        <a class = "yt-link" id="${details.id === 44242 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/watch?v=ZkftnbMA2Hs&list=PLd4nhnkLAsvybAabQKnEHww9-AZZTFk1s" target="_blank"><i class="fa-brands fa-youtube"></i> Watch on YouTube</a>
-        <a class = "yt-link" id="${details.id === 44242 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/watch?v=ZkftnbMA2Hs&list=PLd4nhnkLAsvybAabQKnEHww9-AZZTFk1s" target="_blank"><i class="fa-brands fa-youtube"></i> Watch on YouTube</a>
-        <a class = "yt-link" id="${details.id === 44242 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/watch?v=ZkftnbMA2Hs&list=PLd4nhnkLAsvybAabQKnEHww9-AZZTFk1s" target="_blank"><i class="fa-brands fa-youtube"></i> Watch on YouTube</a>
-      
+        <div><span class="titles">Genre: </span> ${details.genres}</div>
+        <div><span class="titles">OfficialSite: </span> <a href="${details.officialSite}" target="_blank">OfficialSite</a></div>
+
         <div><span class="titles">ID: </span> ${details.id}</div>
         <div><span class="titles">IMDb Rating: </span> ${details.rating.average}</div>
     </div>

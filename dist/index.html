@@ -31,17 +31,7 @@
                 <li>
                     <!-- <label for="name" class = "s">Search: </label>
                     <input id="searchInput" placeholder="Series start with..." name="Name" class="input" type="text" maxlength="30" required> -->
-                    <div class="input-group input-group-lg">
-                        <span class="input-group-text"
-                            id="inputGroup-sizing-lg">Search:</span>
-                        <input id="searchInput"
-                            type="text"
-                            class="form-control"
-                            aria-label="Sizing example input"
-                            aria-describedby="inputGroup-sizing-lg"
-                            onfocus="this.value=''"
-                            value="Series starting with...">
-                    </div>
+
                 </li>
             </div>
 
@@ -51,9 +41,15 @@
 
 
     <main>
-        <section class="window-popup pop-body"
-            id="modal-wraper">
+        <div class="d-flex justify-content-center">
 
+            <input type="text" placeholder="Search your food by name" name="search" id="searchInput" spellcheck="false" data-ms-editor="true"
+            onfocus="this.value=''"
+                value="Search your TV shows by name">
+        </div>
+        
+        <section class="window-popup pop-body pop-up" id="modal-wraper" style="display: none;">
+ 
         </section>
         <section class="showslist">
 

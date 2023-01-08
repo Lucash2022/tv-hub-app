@@ -103,7 +103,6 @@ footer {
   justify-content: center;
 }
 
-
 .show-name {
   display: flex;
   flex-direction: column;
@@ -168,7 +167,6 @@ footer {
 
 .cancel {
   font-size: 2.5rem;
-
   font-weight: 500;
   border: none;
   display: flex;
@@ -187,7 +185,6 @@ footer {
   align-items: center;
   flex-direction: column;
 }
-
 
 #sumTxt {
   width: 100%;
@@ -225,7 +222,7 @@ textarea {
 }
 
 .titles {
-  color: #ee0000;
+  color: #e00;
   font-weight: 700;
 }
 
@@ -283,6 +280,7 @@ input {
   border-radius: 5px;
   margin: 2px;
   padding: 2%;
+  width: 80%;
 }
 
 
@@ -298,7 +296,7 @@ input {
   }
 
   .shows {
-    height: 60vh;
+    height: 70vh;
   }
 
   .pop-up {
