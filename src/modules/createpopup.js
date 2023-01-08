@@ -105,6 +105,23 @@ export const createPopUpDetails = (details) => {
         <a class = "s-link" id="${details.id === 26020 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/young-sheldon-j20oy/6-8" target="_blank"><i class="fa-brands fa-youtube"></i> Season 6  Episode 8</a>
         <a class = "s-link" id="${details.id === 26020 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/young-sheldon-j20oy/6-9" target="_blank"><i class="fa-brands fa-youtube"></i> Season 6  Episode 9</a>
 
+        <a class = "yt-link Gotham" id="${details.id === 11 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/watch?v=VwOPA2upeCA" target="_blank"><i class="fa-brands fa-youtube"></i> Watch on YouTube</a>
+        <a class = "s-link" id="${details.id === 11 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/gotham-ykzqz/5-1" target="_blank"><i class="fa-brands fa-youtube"></i> Season 5  Episode 1</a>
+        <a class = "s-link" id="${details.id === 11 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/gotham-ykzqz/5-2" target="_blank"><i class="fa-brands fa-youtube"></i> Season 5  Episode 2</a>
+        <a class = "s-link" id="${details.id === 11 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/gotham-ykzqz/5-3" target="_blank"><i class="fa-brands fa-youtube"></i> Season 5  Episode 3</a>
+        <a class = "s-link" id="${details.id === 11 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/gotham-ykzqz/5-4" target="_blank"><i class="fa-brands fa-youtube"></i> Season 5  Episode 4</a>
+        <a class = "s-link" id="${details.id === 11 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/gotham-ykzqz/5-5" target="_blank"><i class="fa-brands fa-youtube"></i> Season 5  Episode 5</a>
+        <a class = "s-link" id="${details.id === 11 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/gotham-ykzqz/5-6" target="_blank"><i class="fa-brands fa-youtube"></i> Season 5  Episode 6</a>
+        <a class = "s-link" id="${details.id === 11 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/gotham-ykzqz/5-7" target="_blank"><i class="fa-brands fa-youtube"></i> Season 5  Episode 7</a>
+        <a class = "s-link" id="${details.id === 11 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/gotham-ykzqz/5-8" target="_blank"><i class="fa-brands fa-youtube"></i> Season 5  Episode 8</a>
+        <a class = "s-link" id="${details.id === 11 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/gotham-ykzqz/5-9" target="_blank"><i class="fa-brands fa-youtube"></i> Season 5  Episode 9</a>
+        <a class = "s-link" id="${details.id === 11 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/gotham-ykzqz/5-10" target="_blank"><i class="fa-brands fa-youtube"></i> Season 5  Episode 10</a>
+        <a class = "s-link" id="${details.id === 11 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/gotham-ykzqz/5-11" target="_blank"><i class="fa-brands fa-youtube"></i> Season 5  Episode 11</a>
+        <a class = "s-link" id="${details.id === 11 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/gotham-ykzqz/5-12" target="_blank"><i class="fa-brands fa-youtube"></i> Season 5  Episode 12</a>
+
+        <a class = "yt-link younng_sheldon" id="${details.id === 26020 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/watch?v=gCy_GJvTmG8" target="_blank"><i class="fa-brands fa-youtube"></i> Watch on YouTube</a>
+        <a class = "s-link" id="${details.id === 26020 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/young-sheldon-j20oy/6-1" target="_blank"><i class="fa-brands fa-youtube"></i> Season 6  Episode 1</a>
+        
 
         <div><span class="titles">Genre: </span> ${details.genres}</div>
         <div><span class="titles">OfficialSite: </span> <a href="${details.officialSite}" target="_blank">OfficialSite</a></div>
