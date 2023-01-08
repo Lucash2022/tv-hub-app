@@ -1,5 +1,5 @@
 /* eslint-disable */
-import { renderComment,generateComment } from "./rendercomment.js";
+import { renderComment, generateComment } from "./rendercomment.js";
 import commentsCounter from "./commentscounter.js";
 
 export const createPopUpDetails = (details) => {
@@ -22,46 +22,51 @@ export const createPopUpDetails = (details) => {
    </div>
     <div class= "modal-head">
         <div class = "summary"><p id="sumTxt">Summary:</p>   ${details.summary}</div>
+        <a class = "yt-link" id="${details.id === 69 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/embed/-WYdUaK54fU" target="_blank"><i class="fa-brands fa-youtube"></i> Watch on YouTube</a>
+        <a class = "yt-link" id="${details.id === 28276 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/embed/ndl1W4ltcmg" target="_blank"><i class="fa-brands fa-youtube"></i> Watch on YouTube</a>
+        <a class = "yt-link" id="${details.id === 38963 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/embed/aOC8E8z_ifw" target="_blank"><i class="fa-brands fa-youtube"></i> Watch on YouTube</a>
+        <a class = "yt-link" id="${details.id === 37781 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/embed/BqqShroJH44" target="_blank"><i class="fa-brands fa-youtube"></i> Watch on YouTube</a>
+        <a class = "yt-link" id="${details.id === 13 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/embed/IgVyroQjZbE" target="_blank"><i class="fa-brands fa-youtube"></i> Watch on YouTube</a>
+        <a class = "yt-link" id="${details.id === 20263 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/embed/Ej24W8gcmXQ" target="_blank"> <i class="fa-brands fa-youtube"></i> Watch on YouTube</a>
+        <a class = "yt-link" id="${details.id === 32938 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/embed/_HgC1TN8FVk" target="_blank"><i class="fa-brands fa-youtube"></i> Watch on YouTube</a>
+        <a class = "yt-link" id="${details.id === 83 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/embed/_jgYEYERYFQ" target="_blank"><i class="fa-brands fa-youtube"></i> Watch on YouTube</a>
+        <a class = "yt-link" id="${details.id === 15299 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/embed/M1bhOaLV4FU" target="_blank"><i class="fa-brands fa-youtube"></i> Watch on YouTube</a>
+        <a class = "yt-link" id="${details.id === 19809 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/embed/zfexbFwCBnE" target="_blank"><i class="fa-brands fa-youtube"></i> Watch on YouTube</a>
+        <a class = "yt-link" id="${details.id === 42827 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/embed/Z6pdYkqeT7A" target="_blank"><i class="fa-brands fa-youtube"></i> Watch on YouTube</a>  
+        <a class = "yt-link" id="${details.id === 54887 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/embed/QRy3eAKzYGc" target="_blank"><i class="fa-brands fa-youtube"></i> Watch on YouTube</a> 
+        <a class = "yt-link" id="${details.id === 171 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/watch?v=cjJLEYMzpjc" target="_blank"><i class="fa-brands fa-youtube"></i> Watch on YouTube</a> 
+        <a class = "yt-link" id="${details.id === 171 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/watch?v=cjJLEYMzpjc" target="_blank"><i class="fa-brands fa-youtube"></i> Watch on YouTube</a> 
+        <a class = "yt-link" id="${details.id === 4 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/watch?v=2yrviapP5uY" target="_blank"><i class="fa-brands fa-youtube"></i> Watch on YouTube</a>
+        <a class = "yt-link" id="${details.id === 81 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/watch?v=KPLWWIOCOOQ" target="_blank"><i class="fa-brands fa-youtube"></i> Watch on YouTube</a>
+        <a class = "yt-link" id="${details.id === 44751 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/watch?v=SJPJPUpNvDw" target="_blank"><i class="fa-brands fa-youtube"></i> Watch on YouTube</a>
+        <a class = "yt-link" id="${details.id === 435 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/watch?v=70Y32si4yb8" target="_blank"><i class="fa-brands fa-youtube"></i> Watch on YouTube</a>
+        <a class = "yt-link" id="${details.id === 33352 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/watch?v=x8UAUAuKNcU" target="_blank"><i class="fa-brands fa-youtube"></i> Watch on YouTube</a>
+        <a class = "yt-link" id="${details.id === 28152 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/watch?v=PJpsRF-TJAE" target="_blank"><i class="fa-brands fa-youtube"></i> Watch on YouTube</a>
+        <a class = "yt-link" id="${details.id === 21845 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/watch?v=fYlZDTru55g" target="_blank"><i class="fa-brands fa-youtube"></i> Watch on YouTube</a>
+        <a class = "yt-link" id="${details.id === 44242 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/watch?v=ZkftnbMA2Hs&list=PLd4nhnkLAsvybAabQKnEHww9-AZZTFk1s" target="_blank"><i class="fa-brands fa-youtube"></i> Watch on YouTube</a>
+        <a class = "yt-link" id="${details.id === 80 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/watch?v=X0lRjbrH-L8" target="_blank"><i class="fa-brands fa-youtube"></i> Watch on YouTube</a>
+        <a class = "yt-link" id="${details.id === 63084 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/watch?v=o6dto51ZZEE" target="_blank"><i class="fa-brands fa-youtube"></i> Watch on YouTube</a>     
+        <a class = "yt-link" id="${details.id === 1 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/watch?v=f_Y5YeYrqUk" target="_blank"><i class="fa-brands fa-youtube"></i> Watch on YouTube</a>        
+        <a class = "yt-link" id="${details.id === 32158 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/watch?v=_h3NFrBsJAM" target="_blank"><i class="fa-brands fa-youtube"></i> Watch on YouTube</a>
+        
         <div><span class="titles">Genre: </span> ${details.genres}</div>
         <div><span class="titles">OfficialSite: </span> <a href="${details.officialSite}" target="_blank">OfficialSite</a></div>
-        <div><span class="titles">Youtube link: </span>
-          <a id="${details.id === 69 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/embed/-WYdUaK54fU" target="_blank">THE BLACKLIST Youtube link</a>
-          <a id="${details.id === 28276 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/embed/ndl1W4ltcmg" target="_blank">THE WITCHER Youtube link</a>
-          <a  id="${details.id === 38963 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/embed/aOC8E8z_ifw" target="_blank">The MANDALORIAN Youtube link</a>
-          <a id="${details.id === 37781 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/embed/BqqShroJH44" target="_blank">THE PERIPHERAL Youtube link</a>
-          <a id="${details.id === 13 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/embed/IgVyroQjZbE" target="_blank">THE FLASH  Youtube link</a>
-          <a id="${details.id === 20263 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/embed/Ej24W8gcmXQ" target="_blank"> THE ORVILLE Youtube link</a>
-          <a id="${details.id === 32938 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/embed/_HgC1TN8FVk" target="_blank">THE ROOKIE  Youtube link</a>
-          <a id="${details.id === 83 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/embed/_jgYEYERYFQ" target="_blank">THE SIMPSONS  Youtube link</a>
-          <a id="${details.id === 15299 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/embed/M1bhOaLV4FU" target="_blank">THE BOYS  Youtube link</a>
-          <a id="${details.id === 19809 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/embed/zfexbFwCBnE" target="_blank">THE RESIDENT  Youtube link</a>
-          <a id="${details.id === 42827 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/embed/Z6pdYkqeT7A" target="_blank">THE SANDMAN Youtube link</a>  
-          <a id="${details.id === 54887 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/embed/QRy3eAKzYGc" target="_blank">HOW I MET YOUR FATHER Youtube link Youtube link</a> 
-          <a id="${details.id === 171 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/watch?v=cjJLEYMzpjc" target="_blank">HOW I MET YOUR MOTHER Youtube link Youtube link</a> 
-          <a id="${details.id === 171 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/watch?v=cjJLEYMzpjc" target="_blank">HOW I MET YOUR MOTHER Youtube link Youtube link</a> 
-          <a id="${details.id === 4 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/watch?v=2yrviapP5uY" target="_blank">ARROW Youtube link Youtube link</a>
-          <a id="${details.id ===  81 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/watch?v=KPLWWIOCOOQ" target="_blank">GAME OF THRONES Youtube link Youtube link</a>
-          <a id="${details.id ===  44751 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/watch?v=SJPJPUpNvDw" target="_blank">SUPERMAN AND LOIS Youtube link Youtube link</a>
-          <a id="${details.id ===  435 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/watch?v=70Y32si4yb8" target="_blank">SMALLVILLE Youtube link Youtube link</a>
-          <a id="${details.id ===  33352 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/watch?v=x8UAUAuKNcU" target="_blank">The Lord of the Rings: The Rings of Power Youtube link Youtube link</a>
-          <a id="${details.id ===  28152 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/watch?v=PJpsRF-TJAE" target="_blank">9-1-1 Youtube link Youtube link</a>
-          <a id="${details.id ===  21845 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/watch?v=fYlZDTru55g" target="_blank">THE GOOD DOCTOR Youtube link Youtube link</a>
-            
-          </div>
+
         <div><span class="titles">ID: </span> ${details.id}</div>
         <div><span class="titles">IMDb Rating: </span> ${details.rating.average}</div>
     </div>
     
+    <div class="comment-container">
+
     <p class="comments">Comments(<span class="comments-ctr"></span>)</p>
     <div class="con-comm">
     </div>
-    <p class="atc">Add To Comment</p>
     <form class="form" action="">
     <input type="text" class="name" id="user" placeholder="Enter Your Name" required>
-    <textarea id="comment" cols = 30 rows = 5 placeholder="Add your Comment" required></textarea>
+    <input id="comment" cols = 30 rows = 5 placeholder="Add your Comment" required></input>
     <button type="submit" class="submit-btn" id="${details.id}">Add Comment</button>
     </form>
-  
+  </div>
     </div>
   `;
   return showModal;
