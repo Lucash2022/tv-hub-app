@@ -140,7 +140,7 @@ footer {
   justify-content: center;
 }
 
-.pop-body {
+/* .pop-body {
   padding: 2%;
   display: flex;
   flex-direction: column;
@@ -150,6 +150,21 @@ footer {
   width: 90%;
   margin: 4% auto;
   border-radius: 10px;
+} */
+
+.window-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 80%;
+  height: 70%;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 2px 2px 8px rgb(0 0 0 / 10%);
+  padding: 16px;
+  overflow-y: scroll;
+  -webkit-font-smoothing: antialiased;
 }
 
 .pop-head {
@@ -286,6 +301,11 @@ input {
 @media only screen and (max-width: 600px) {
   nav {
     display: none;
+  }
+
+  .window-popup {
+    width: 50% I !important;
+    height: 90% !important;
   }
 
   .showslist {
