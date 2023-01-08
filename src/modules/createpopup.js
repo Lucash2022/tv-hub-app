@@ -48,6 +48,14 @@ export const createPopUpDetails = (details) => {
         <a class = "yt-link" id="${details.id === 63084 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/watch?v=o6dto51ZZEE" target="_blank"><i class="fa-brands fa-youtube"></i> Watch on YouTube</a>     
         <a class = "yt-link" id="${details.id === 1 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/watch?v=f_Y5YeYrqUk" target="_blank"><i class="fa-brands fa-youtube"></i> Watch on YouTube</a>        
         <a class = "yt-link" id="${details.id === 32158 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/watch?v=_h3NFrBsJAM" target="_blank"><i class="fa-brands fa-youtube"></i> Watch on YouTube</a>
+        <a class = "yt-link" id="${details.id === 161 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/watch?v=YQeUmSD1c3g" target="_blank"><i class="fa-brands fa-youtube"></i> Watch on YouTube</a>
+        <a class = "yt-link" id="${details.id === 58846 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/watch?v=mzUx1hyL-yk" target="_blank"><i class="fa-brands fa-youtube"></i> Watch on YouTube</a>
+        <a class = "yt-link" id="${details.id === 7001 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/watch?v=0Qr47bhb29A" target="_blank"><i class="fa-brands fa-youtube"></i> Watch on YouTube</a>
+        <a class = "yt-link" id="${details.id === 17137 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/watch?v=XELKAaCerps" target="_blank"><i class="fa-brands fa-youtube"></i> Watch on YouTube</a>
+        <a class = "yt-link" id="${details.id === 82 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/watch?v=KPLWWIOCOOQ&t=13s" target="_blank"><i class="fa-brands fa-youtube"></i> Watch on YouTube</a>
+        <a class = "yt-link" id="${details.id === 44778 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/watch?v=DotnJ7tTA34" target="_blank"><i class="fa-brands fa-youtube"></i> Watch on YouTube</a>
+        <a class = "yt-link" id="${details.id === 16579 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/watch?v=dVLiDETfx1c" target="_blank"><i class="fa-brands fa-youtube"></i> Watch on YouTube</a>
+        <a class = "yt-link" id="${details.id === 116 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/watch?v=tYhFAOUt1Fs" target="_blank"><i class="fa-brands fa-youtube"></i> Watch on YouTube</a>
         
         <div><span class="titles">Genre: </span> ${details.genres}</div>
         <div><span class="titles">OfficialSite: </span> <a href="${details.officialSite}" target="_blank">OfficialSite</a></div>
