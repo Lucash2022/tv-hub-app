@@ -22,6 +22,7 @@ export const createPopUpDetails = (details) => {
    </div>
     <div class= "modal-head">
         <div class = "summary"><p id="sumTxt">Summary:</p>   ${details.summary}</div>
+        <section class="videos">
         <a class = "yt-link" id="${details.id === 69 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/embed/-WYdUaK54fU" target="_blank"><i class="fa-brands fa-youtube"></i> Watch on YouTube</a>
         <a class = "yt-link" id="${details.id === 28276 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/embed/ndl1W4ltcmg" target="_blank"><i class="fa-brands fa-youtube"></i> Watch on YouTube</a>
         <a class = "yt-link" id="${details.id === 38963 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/embed/aOC8E8z_ifw" target="_blank"><i class="fa-brands fa-youtube"></i> Watch on YouTube</a>
@@ -119,10 +120,35 @@ export const createPopUpDetails = (details) => {
         <a class = "s-link" id="${details.id === 11 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/gotham-ykzqz/5-11" target="_blank"><i class="fa-brands fa-youtube"></i> Season 5  Episode 11</a>
         <a class = "s-link" id="${details.id === 11 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/gotham-ykzqz/5-12" target="_blank"><i class="fa-brands fa-youtube"></i> Season 5  Episode 12</a>
 
-        <a class = "yt-link younng_sheldon" id="${details.id === 26020 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/watch?v=gCy_GJvTmG8" target="_blank"><i class="fa-brands fa-youtube"></i> Watch on YouTube</a>
-        <a class = "s-link" id="${details.id === 26020 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/young-sheldon-j20oy/6-1" target="_blank"><i class="fa-brands fa-youtube"></i> Season 6  Episode 1</a>
-        
-
+      <div class = "season">
+      <a class = "yt-link younng_sheldon" id="${details.id === 1601 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/watch?v=tPWDioSdsHc" target="_blank"><i class="fa-brands fa-youtube"></i> Season 1</a>
+        <a class = "s-link" id="${details.id === 1601 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/mind-your-language-506m/1-1" target="_blank"><i class="fa-brands fa-youtube"></i> Season 1  Episode 1</a>
+        <a class = "s-link" id="${details.id === 1601 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/mind-your-language-506m/1-2" target="_blank"><i class="fa-brands fa-youtube"></i> Season 1  Episode 2</a>
+        <a class = "s-link" id="${details.id === 1601 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/mind-your-language-506m/1-3" target="_blank"><i class="fa-brands fa-youtube"></i> Season 1  Episode 3</a>
+        <a class = "s-link" id="${details.id === 1601 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/mind-your-language-506m/1-4" target="_blank"><i class="fa-brands fa-youtube"></i> Season 1  Episode 4</a>
+        <a class = "s-link" id="${details.id === 1601 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/mind-your-language-506m/1-5" target="_blank"><i class="fa-brands fa-youtube"></i> Season 1  Episode 5</a>
+        <a class = "s-link" id="${details.id === 1601 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/mind-your-language-506m/1-6" target="_blank"><i class="fa-brands fa-youtube"></i> Season 1  Episode 6</a>
+        <a class = "s-link" id="${details.id === 1601 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/mind-your-language-506m/1-7" target="_blank"><i class="fa-brands fa-youtube"></i> Season 1  Episode 7</a>
+        <a class = "s-link" id="${details.id === 1601 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/mind-your-language-506m/1-8" target="_blank"><i class="fa-brands fa-youtube"></i> Season 1  Episode 8</a>
+        <a class = "s-link" id="${details.id === 1601 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/mind-your-language-506m/1-9" target="_blank"><i class="fa-brands fa-youtube"></i> Season 1  Episode 9</a>
+        <a class = "s-link" id="${details.id === 1601 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/mind-your-language-506m/1-10" target="_blank"><i class="fa-brands fa-youtube"></i> Season 1  Episode 10</a>
+        <a class = "s-link" id="${details.id === 1601 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/mind-your-language-506m/1-11" target="_blank"><i class="fa-brands fa-youtube"></i> Season 1  Episode 11</a>
+        <a class = "s-link" id="${details.id === 1601 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/mind-your-language-506m/1-12" target="_blank"><i class="fa-brands fa-youtube"></i> Season 1  Episode 12</a>
+        <a class = "s-link" id="${details.id === 1601 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/mind-your-language-506m/1-13" target="_blank"><i class="fa-brands fa-youtube"></i> Season 1  Episode 13</a>
+        </div>
+        <div = "season">
+        <a class = "yt-link mind your langugae" id="${details.id === 1601 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/watch?v=tPWDioSdsHc" target="_blank"><i class="fa-brands fa-youtube"></i> Season 2</a>
+        <a class = "s-link" id="${details.id === 1601 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/mind-your-language-506m/2-1" target="_blank"><i class="fa-brands fa-youtube"></i> Season 2  Episode 1</a>
+        <a class = "s-link" id="${details.id === 1601 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/mind-your-language-506m/2-2" target="_blank"><i class="fa-brands fa-youtube"></i> Season 2  Episode 2</a>
+        <a class = "s-link" id="${details.id === 1601 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/mind-your-language-506m/2-3" target="_blank"><i class="fa-brands fa-youtube"></i> Season 2  Episode 3</a>
+        <a class = "s-link" id="${details.id === 1601 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/mind-your-language-506m/2-4" target="_blank"><i class="fa-brands fa-youtube"></i> Season 2  Episode 4</a>
+        <a class = "s-link" id="${details.id === 1601 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/mind-your-language-506m/2-5" target="_blank"><i class="fa-brands fa-youtube"></i> Season 2  Episode 5</a>
+        <a class = "s-link" id="${details.id === 1601 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/mind-your-language-506m/2-6" target="_blank"><i class="fa-brands fa-youtube"></i> Season 2  Episode 6</a>
+        <a class = "s-link" id="${details.id === 1601 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/mind-your-language-506m/2-7" target="_blank"><i class="fa-brands fa-youtube"></i> Season 2  Episode 7</a>
+        <a class = "s-link" id="${details.id === 1601 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/mind-your-language-506m/2-8" target="_blank"><i class="fa-brands fa-youtube"></i> Season 2  Episode 9</a>
+       
+        </div>
+        </section>
         <div><span class="titles">Genre: </span> ${details.genres}</div>
         <div><span class="titles">OfficialSite: </span> <a href="${details.officialSite}" target="_blank">OfficialSite</a></div>
 
