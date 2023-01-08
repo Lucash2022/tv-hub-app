@@ -255,3 +255,16 @@ textarea {
 .no_comment_li {
   list-style: none;
 }
+
+.yt-link {
+  background: #dc0808;
+  color: white;
+  padding: 8px;
+  font-size: 20px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: max-content;
+  gap: 4px;
+}
