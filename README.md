@@ -222,6 +222,10 @@ Thanks to our friend [Alex](https://github.com/Osoro254Alex) for a good insight 
 
 Thanks to our friend [Ernest Korir](https://github.com/ernestkorir) for a good insight of the code.
 
+Thanks to our friend [Prantosh Biswas](https://github.com/PrantoshB) for a good insight of the code.
+
+Thanks to our friend [Utsargo Roy](https://github.com/utsargo) for a good insight of the code.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FAQ (optional) -->
