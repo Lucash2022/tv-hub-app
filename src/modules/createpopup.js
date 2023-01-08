@@ -121,7 +121,7 @@ export const createPopUpDetails = (details) => {
         <a class = "s-link" id="${details.id === 11 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/gotham-ykzqz/5-12" target="_blank"><i class="fa-brands fa-youtube"></i> Season 5  Episode 12</a>
 
       <div class = "season">
-      <a class = "yt-link younng_sheldon" id="${details.id === 1601 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/watch?v=tPWDioSdsHc" target="_blank"><i class="fa-brands fa-youtube"></i> Season 1</a>
+      <a class = "yt-link younng_sheldon" id="${details.id === 1601 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/watch?v=tPWDioSdsHc" target="_blank"><i class="fa-brands fa-youtube"></i> Season 4</a>
         <a class = "s-link" id="${details.id === 1601 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/mind-your-language-506m/1-1" target="_blank"><i class="fa-brands fa-youtube"></i> Season 1  Episode 1</a>
         <a class = "s-link" id="${details.id === 1601 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/mind-your-language-506m/1-2" target="_blank"><i class="fa-brands fa-youtube"></i> Season 1  Episode 2</a>
         <a class = "s-link" id="${details.id === 1601 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/mind-your-language-506m/1-3" target="_blank"><i class="fa-brands fa-youtube"></i> Season 1  Episode 3</a>
@@ -158,6 +158,82 @@ export const createPopUpDetails = (details) => {
         <a class = "s-link" id="${details.id === 1601 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/mind-your-language-506m/3-7" target="_blank"><i class="fa-brands fa-youtube"></i> Season 3  Episode 7</a>
         <a class = "s-link" id="${details.id === 1601 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/mind-your-language-506m/3-8" target="_blank"><i class="fa-brands fa-youtube"></i> Season 3  Episode 8</a>
         </div>
+
+        <div = "season">
+        <a class = "yt-link FBI_most_wanted" id="${details.id === 40695 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/watch?v=Ru1ys_Ribf0" target="_blank"><i class="fa-brands fa-youtube"></i> Season 1</a>
+        <a class = "s-link" id="${details.id === 40695 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/fbi-most-wanted-lx296/1-1" target="_blank"><i class="fa-brands fa-youtube"></i> Season 1 Episode 1</a>
+        <a class = "s-link" id="${details.id === 40695 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/fbi-most-wanted-lx296/1-2" target="_blank"><i class="fa-brands fa-youtube"></i> Season 1  Episode 2</a>
+        <a class = "s-link" id="${details.id === 40695 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/fbi-most-wanted-lx296/1-3" target="_blank"><i class="fa-brands fa-youtube"></i> Season 1  Episode 3</a>
+        <a class = "s-link" id="${details.id === 40695 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/fbi-most-wanted-lx296/1-4" target="_blank"><i class="fa-brands fa-youtube"></i> Season 1  Episode 4</a>
+        <a class = "s-link" id="${details.id === 40695 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/fbi-most-wanted-lx296/1-5" target="_blank"><i class="fa-brands fa-youtube"></i> Season 1  Episode 5</a>
+        <a class = "s-link" id="${details.id === 40695 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/fbi-most-wanted-lx296/1-6" target="_blank"><i class="fa-brands fa-youtube"></i> Season 1  Episode 6</a>
+        <a class = "s-link" id="${details.id === 40695 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/fbi-most-wanted-lx296/1-7" target="_blank"><i class="fa-brands fa-youtube"></i> Season 1  Episode 7</a>
+        <a class = "s-link" id="${details.id === 40695 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/fbi-most-wanted-lx296/1-8" target="_blank"><i class="fa-brands fa-youtube"></i> Season 1  Episode 8</a>
+        <a class = "s-link" id="${details.id === 40695 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/fbi-most-wanted-lx296/1-9" target="_blank"><i class="fa-brands fa-youtube"></i> Season 1  Episode 9</a>
+        <a class = "s-link" id="${details.id === 40695 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/fbi-most-wanted-lx296/1-10" target="_blank"><i class="fa-brands fa-youtube"></i> Season 1  Episode 10</a>
+        <a class = "s-link" id="${details.id === 40695 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/fbi-most-wanted-lx296/1-11" target="_blank"><i class="fa-brands fa-youtube"></i> Season 1  Episode 11</a>
+        <a class = "s-link" id="${details.id === 40695 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/fbi-most-wanted-lx296/1-12" target="_blank"><i class="fa-brands fa-youtube"></i> Season 1  Episode 12</a>
+        <a class = "s-link" id="${details.id === 40695 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/fbi-most-wanted-lx296/1-13" target="_blank"><i class="fa-brands fa-youtube"></i> Season 1  Episode 13</a>
+        <a class = "s-link" id="${details.id === 40695 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/fbi-most-wanted-lx296/1-14" target="_blank"><i class="fa-brands fa-youtube"></i> Season 1 Episode 14</a>
+        </div>
+        <div = "season">
+        <a class = "yt-link FBI_most_wanted" id="${details.id === 40695 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/watch?v=Ru1ys_Ribf0" target="_blank"><i class="fa-brands fa-youtube"></i> Season 2</a>
+        <a class = "s-link" id="${details.id === 40695 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/fbi-most-wanted-lx296/2-1" target="_blank"><i class="fa-brands fa-youtube"></i> Season 2 Episode 1</a>
+        <a class = "s-link" id="${details.id === 40695 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/fbi-most-wanted-lx296/2-2" target="_blank"><i class="fa-brands fa-youtube"></i> Season 2  Episode 2</a>
+        <a class = "s-link" id="${details.id === 40695 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/fbi-most-wanted-lx296/2-3" target="_blank"><i class="fa-brands fa-youtube"></i> Season 2  Episode 3</a>
+        <a class = "s-link" id="${details.id === 40695 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/fbi-most-wanted-lx296/2-4" target="_blank"><i class="fa-brands fa-youtube"></i> Season 2  Episode 4</a>
+        <a class = "s-link" id="${details.id === 40695 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/fbi-most-wanted-lx296/2-5" target="_blank"><i class="fa-brands fa-youtube"></i> Season 2  Episode 5</a>
+        <a class = "s-link" id="${details.id === 40695 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/fbi-most-wanted-lx296/2-6" target="_blank"><i class="fa-brands fa-youtube"></i> Season 2  Episode 6</a>
+        <a class = "s-link" id="${details.id === 40695 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/fbi-most-wanted-lx296/2-7" target="_blank"><i class="fa-brands fa-youtube"></i> Season 2  Episode 7</a>
+        <a class = "s-link" id="${details.id === 40695 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/fbi-most-wanted-lx296/2-8" target="_blank"><i class="fa-brands fa-youtube"></i> Season 2  Episode 8</a>
+        <a class = "s-link" id="${details.id === 40695 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/fbi-most-wanted-lx296/2-9" target="_blank"><i class="fa-brands fa-youtube"></i> Season 2  Episode 9</a>
+        <a class = "s-link" id="${details.id === 40695 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/fbi-most-wanted-lx296/2-10" target="_blank"><i class="fa-brands fa-youtube"></i> Season 2  Episode 10</a>
+        <a class = "s-link" id="${details.id === 40695 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/fbi-most-wanted-lx296/2-11" target="_blank"><i class="fa-brands fa-youtube"></i> Season 2  Episode 11</a>
+        <a class = "s-link" id="${details.id === 40695 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/fbi-most-wanted-lx296/2-12" target="_blank"><i class="fa-brands fa-youtube"></i> Season 2  Episode 12</a>
+        <a class = "s-link" id="${details.id === 40695 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/fbi-most-wanted-lx296/2-13" target="_blank"><i class="fa-brands fa-youtube"></i> Season 2  Episode 13</a>
+        <a class = "s-link" id="${details.id === 40695 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/fbi-most-wanted-lx296/2-14" target="_blank"><i class="fa-brands fa-youtube"></i> Season 2 Episode 14</a>
+        <a class = "s-link" id="${details.id === 40695 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/fbi-most-wanted-lx296/2-15" target="_blank"><i class="fa-brands fa-youtube"></i> Season 2 Episode 15</a>
+        
+        </div>
+
+        <div = "season">
+        <a class = "yt-link FBI_most_wanted" id="${details.id === 40695 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/watch?v=Ru1ys_Ribf0" target="_blank"><i class="fa-brands fa-youtube"></i> Season 3</a>
+        <a class = "s-link" id="${details.id === 40695 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/fbi-most-wanted-lx296/3-1" target="_blank"><i class="fa-brands fa-youtube"></i> Season 3 Episode 1</a>
+        <a class = "s-link" id="${details.id === 40695 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/fbi-most-wanted-lx296/3-2" target="_blank"><i class="fa-brands fa-youtube"></i> Season 3  Episode 2</a>
+        <a class = "s-link" id="${details.id === 40695 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/fbi-most-wanted-lx296/3-3" target="_blank"><i class="fa-brands fa-youtube"></i> Season 3  Episode 3</a>
+        <a class = "s-link" id="${details.id === 40695 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/fbi-most-wanted-lx296/3-4" target="_blank"><i class="fa-brands fa-youtube"></i> Season 3  Episode 4</a>
+        <a class = "s-link" id="${details.id === 40695 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/fbi-most-wanted-lx296/3-5" target="_blank"><i class="fa-brands fa-youtube"></i> Season 3  Episode 5</a>
+        <a class = "s-link" id="${details.id === 40695 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/fbi-most-wanted-lx296/3-6" target="_blank"><i class="fa-brands fa-youtube"></i> Season 3  Episode 6</a>
+        <a class = "s-link" id="${details.id === 40695 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/fbi-most-wanted-lx296/3-7" target="_blank"><i class="fa-brands fa-youtube"></i> Season 3  Episode 7</a>
+        <a class = "s-link" id="${details.id === 40695 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/fbi-most-wanted-lx296/3-8" target="_blank"><i class="fa-brands fa-youtube"></i> Season 3  Episode 8</a>
+        <a class = "s-link" id="${details.id === 40695 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/fbi-most-wanted-lx296/3-9" target="_blank"><i class="fa-brands fa-youtube"></i> Season 3  Episode 9</a>
+        <a class = "s-link" id="${details.id === 40695 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/fbi-most-wanted-lx296/3-10" target="_blank"><i class="fa-brands fa-youtube"></i> Season 3  Episode 10</a>
+        <a class = "s-link" id="${details.id === 40695 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/fbi-most-wanted-lx296/3-11" target="_blank"><i class="fa-brands fa-youtube"></i> Season 3  Episode 11</a>
+        <a class = "s-link" id="${details.id === 40695 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/fbi-most-wanted-lx296/3-12" target="_blank"><i class="fa-brands fa-youtube"></i> Season 3  Episode 12</a>
+        <a class = "s-link" id="${details.id === 40695 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/fbi-most-wanted-lx296/3-13" target="_blank"><i class="fa-brands fa-youtube"></i> Season 3  Episode 13</a>
+        <a class = "s-link" id="${details.id === 40695 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/fbi-most-wanted-lx296/3-14" target="_blank"><i class="fa-brands fa-youtube"></i> Season 3 Episode 14</a>
+        <a class = "s-link" id="${details.id === 40695 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/fbi-most-wanted-lx296/3-15" target="_blank"><i class="fa-brands fa-youtube"></i> Season 3 Episode 15</a>
+        <a class = "s-link" id="${details.id === 40695 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/fbi-most-wanted-lx296/3-16" target="_blank"><i class="fa-brands fa-youtube"></i> Season 3 Episode 16</a>
+        <a class = "s-link" id="${details.id === 40695 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/fbi-most-wanted-lx296/3-17" target="_blank"><i class="fa-brands fa-youtube"></i> Season 3 Episode 17</a>
+        <a class = "s-link" id="${details.id === 40695 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/fbi-most-wanted-lx296/3-18" target="_blank"><i class="fa-brands fa-youtube"></i> Season 3 Episode 18</a>
+        <a class = "s-link" id="${details.id === 40695 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/fbi-most-wanted-lx296/3-19" target="_blank"><i class="fa-brands fa-youtube"></i> Season 3 Episode 19</a>
+        <a class = "s-link" id="${details.id === 40695 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/fbi-most-wanted-lx296/3-20" target="_blank"><i class="fa-brands fa-youtube"></i> Season 3 Episode 20</a>
+        <a class = "s-link" id="${details.id === 40695 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/fbi-most-wanted-lx296/3-21" target="_blank"><i class="fa-brands fa-youtube"></i> Season 3 Episode 21</a>
+        <a class = "s-link" id="${details.id === 40695 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/fbi-most-wanted-lx296/3-22" target="_blank"><i class="fa-brands fa-youtube"></i> Season 3 Episode 22</a>
+        </div>
+
+        <div = "season">
+        <a class = "yt-link FBI_most_wanted" id="${details.id === 40695 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/watch?v=j6J20njTGJM" target="_blank"><i class="fa-brands fa-youtube"></i> Season 4</a>
+        <a class = "s-link" id="${details.id === 40695 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/fbi-most-wanted-lx296/4-1" target="_blank"><i class="fa-brands fa-youtube"></i> Season 4 Episode 1</a>
+        <a class = "s-link" id="${details.id === 40695 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/fbi-most-wanted-lx296/4-2" target="_blank"><i class="fa-brands fa-youtube"></i> Season 4  Episode 2</a>
+        <a class = "s-link" id="${details.id === 40695 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/fbi-most-wanted-lx296/4-3" target="_blank"><i class="fa-brands fa-youtube"></i> Season 4  Episode 3</a>
+        <a class = "s-link" id="${details.id === 40695 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/fbi-most-wanted-lx296/4-4" target="_blank"><i class="fa-brands fa-youtube"></i> Season 4  Episode 4</a>
+        <a class = "s-link" id="${details.id === 40695 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/fbi-most-wanted-lx296/4-5" target="_blank"><i class="fa-brands fa-youtube"></i> Season 4  Episode 5</a>
+        <a class = "s-link" id="${details.id === 40695 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/fbi-most-wanted-lx296/4-6" target="_blank"><i class="fa-brands fa-youtube"></i> Season 4  Episode 6</a>
+        <a class = "s-link" id="${details.id === 40695 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/fbi-most-wanted-lx296/4-7" target="_blank"><i class="fa-brands fa-youtube"></i> Season 4  Episode 7</a>
+        <a class = "s-link" id="${details.id === 40695 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/fbi-most-wanted-lx296/4-8" target="_blank"><i class="fa-brands fa-youtube"></i> Season 4  Episode 8</a>
+        <a class = "s-link" id="${details.id === 40695 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/fbi-most-wanted-lx296/4-9" target="_blank"><i class="fa-brands fa-youtube"></i> Season 4  Episode 9</a>
+ </div>
         </section>
         <div><span class="titles">Genre: </span> ${details.genres}</div>
         <div><span class="titles">OfficialSite: </span> <a href="${details.officialSite}" target="_blank">OfficialSite</a></div>
