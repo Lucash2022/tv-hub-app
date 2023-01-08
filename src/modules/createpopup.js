@@ -244,7 +244,7 @@ export const createPopUpDetails = (details) => {
     
     <div class="comment-container">
 
-    <p class="comments">Comments(<span class="comments-ctr"></span>)</p>
+    <p class="comments">Comments<span class="comments-ctr"></span></p>
     <div class="con-comm">
     </div>
     <form class="form" action="">

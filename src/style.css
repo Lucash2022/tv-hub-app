@@ -117,10 +117,21 @@ footer {
 
 .comments {
   display: flex;
-  color: red;
+  color: whitesmoke;
   font-weight: 600;
   margin-top: 3%;
   font-size: 1.2rem;
+  background-color: black;
+  width: max-content;
+  padding: 12px;
+}
+
+.comments-ctr {
+  color: black;
+  background-color: whitesmoke;
+  padding: 2px 8px;
+  border-radius: 25%;
+  line-height: 1;
 }
 
 #comments-section {
@@ -139,18 +150,6 @@ footer {
   display: flex;
   justify-content: center;
 }
-
-/* .pop-body {
-  padding: 2%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: rgba(255, 255, 255);
-  width: 90%;
-  margin: 4% auto;
-  border-radius: 10px;
-} */
 
 .window-popup {
   position: fixed;
