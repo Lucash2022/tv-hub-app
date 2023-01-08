@@ -145,8 +145,18 @@ export const createPopUpDetails = (details) => {
         <a class = "s-link" id="${details.id === 1601 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/mind-your-language-506m/2-5" target="_blank"><i class="fa-brands fa-youtube"></i> Season 2  Episode 5</a>
         <a class = "s-link" id="${details.id === 1601 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/mind-your-language-506m/2-6" target="_blank"><i class="fa-brands fa-youtube"></i> Season 2  Episode 6</a>
         <a class = "s-link" id="${details.id === 1601 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/mind-your-language-506m/2-7" target="_blank"><i class="fa-brands fa-youtube"></i> Season 2  Episode 7</a>
-        <a class = "s-link" id="${details.id === 1601 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/mind-your-language-506m/2-8" target="_blank"><i class="fa-brands fa-youtube"></i> Season 2  Episode 9</a>
-       
+        <a class = "s-link" id="${details.id === 1601 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/mind-your-language-506m/2-8" target="_blank"><i class="fa-brands fa-youtube"></i> Season 2  Episode 8</a>
+        </div>
+        <div = "season">
+        <a class = "yt-link mind your langugae" id="${details.id === 1601 ? 'showframe' : 'hideframe'}" href="https://www.youtube.com/watch?v=tPWDioSdsHc" target="_blank"><i class="fa-brands fa-youtube"></i> Season 3</a>
+        <a class = "s-link" id="${details.id === 1601 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/mind-your-language-506m/3-1" target="_blank"><i class="fa-brands fa-youtube"></i> Season 3 Episode 1</a>
+        <a class = "s-link" id="${details.id === 1601 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/mind-your-language-506m/3-2" target="_blank"><i class="fa-brands fa-youtube"></i> Season 3  Episode 2</a>
+        <a class = "s-link" id="${details.id === 1601 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/mind-your-language-506m/3-3" target="_blank"><i class="fa-brands fa-youtube"></i> Season 3  Episode 3</a>
+        <a class = "s-link" id="${details.id === 1601 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/mind-your-language-506m/3-4" target="_blank"><i class="fa-brands fa-youtube"></i> Season 3  Episode 4</a>
+        <a class = "s-link" id="${details.id === 1601 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/mind-your-language-506m/3-5" target="_blank"><i class="fa-brands fa-youtube"></i> Season 3  Episode 5</a>
+        <a class = "s-link" id="${details.id === 1601 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/mind-your-language-506m/3-6" target="_blank"><i class="fa-brands fa-youtube"></i> Season 3  Episode 6</a>
+        <a class = "s-link" id="${details.id === 1601 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/mind-your-language-506m/3-7" target="_blank"><i class="fa-brands fa-youtube"></i> Season 3  Episode 7</a>
+        <a class = "s-link" id="${details.id === 1601 ? 'showframe' : 'hideframe'}" href="https://web.bflix.to/series/mind-your-language-506m/3-8" target="_blank"><i class="fa-brands fa-youtube"></i> Season 3  Episode 8</a>
         </div>
         </section>
         <div><span class="titles">Genre: </span> ${details.genres}</div>
