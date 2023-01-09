@@ -34,6 +34,7 @@ export const addCommentPopupEvent = () => {
   commentBtns.forEach((btn) => btn.addEventListener('click', (e) => {
     e.preventDefault();
     displayPoUp(btn.id);
+    
   }));
 };
 /* eslint-enable */

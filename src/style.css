@@ -1,3 +1,8 @@
+:root {
+  --bg: rgb(16, 15, 23);
+  --clr: rgb(228, 216, 4);
+}
+
 body {
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
   background-size: 400% 400%;
@@ -96,11 +101,24 @@ footer {
   padding: 10px;
   margin: 10px;
   box-shadow: 3px 3px 5px;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.2s ease-in-out;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  height: max-content;
+}
+
+.shows:hover {
+  transform: scale(1.09);
+}
+
+.fa-heart {
+  cursor: pointer;
+}
+
+.fa-heart:hover {
+  color: red;
 }
 
 .show-name {
@@ -146,6 +164,11 @@ footer {
   font-family: fantasy;
 }
 
+.btn:hover {
+  background-color: #999;
+  transform: scale(1.0);
+}
+
 .comment {
   display: flex;
   justify-content: center;
@@ -156,8 +179,8 @@ footer {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 80%;
-  height: 70%;
+  width: 95%;
+  height: 95%;
   background-color: #fff;
   border-radius: 4px;
   box-shadow: 2px 2px 8px rgb(0 0 0 / 10%);
