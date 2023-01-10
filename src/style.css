@@ -27,6 +27,11 @@ body {
   }
 }
 
+p {
+  font-size: x-small !important;
+  width: fit-content;
+}
+
 nav {
   display: flex;
   padding: 20px;
@@ -109,10 +114,6 @@ footer {
   height: max-content;
 }
 
-.shows:hover {
-  transform: scale(1.09);
-}
-
 .fa-heart {
   cursor: pointer;
 }
@@ -166,7 +167,7 @@ footer {
 
 .btn:hover {
   background-color: #999;
-  transform: scale(1.0);
+  transform: scale(1);
 }
 
 .comment {
@@ -179,8 +180,8 @@ footer {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 95%;
-  height: 95%;
+  width: 70%;
+  height: 100%;
   background-color: #fff;
   border-radius: 4px;
   box-shadow: 2px 2px 8px rgb(0 0 0 / 10%);
@@ -219,8 +220,9 @@ footer {
 
 .summary {
   display: flex;
-  align-items: center;
+  align-items: left;
   flex-direction: column;
+  width: 70%;
 }
 
 #sumTxt {
@@ -274,13 +276,14 @@ textarea {
 }
 
 .submit-btn {
-  width: 35%;
-  align-self: center;
+  width: 20%;
+  align-self: left;
   background: rgb(98, 87, 247);
   border: 0;
   border-radius: 5px;
   color: white;
-  height: 3rem;
+  height: 2rem;
+  font-size: xx-small;
 }
 
 .name {
@@ -300,29 +303,26 @@ textarea {
   background: #dc0808;
   color: white;
   padding: 1%;
-  font-size: 1rem;
-  border-radius: 8px;
+  font-size: xx-small;
+  border-radius: 4px;
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: left;
   width: max-content;
   text-decoration: none;
-  gap: 4px;
 }
 
 .s-link {
   background: #0e5585;
   color: white;
   padding: 1%;
-  font-size: 1rem;
-  border-radius: 8px;
+  font-size: xx-small;
+  border-radius: 6px;
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: left;
   width: max-content;
   text-decoration: none;
-  gap: 2px;
-
 }
 
 input {
@@ -338,7 +338,7 @@ input {
 .videos {
   display: flex;
   flex-direction: row;
-  gap: 1em;
+  width: 50%;
 }
 
 .season {
@@ -384,5 +384,33 @@ input {
 
   .submit-btn {
     width: 50%;
+  }
+
+  .yt-link {
+    background: #dc0808;
+    color: white;
+    padding: 1%;
+    font-size: 1rem;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: max-content;
+    text-decoration: none;
+    gap: 4px;
+  }
+
+  .s-link {
+    background: #0e5585;
+    color: white;
+    padding: 1%;
+    font-size: 1rem;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: max-content;
+    text-decoration: none;
+    gap: 2px;
   }
 }
