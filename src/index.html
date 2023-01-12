@@ -1,66 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TV-hub</title>
+    <script src="https://kit.fontawesome.com/b21ce73c3c.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/3372ac2666.js" crossorigin="anonymous"></script>
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-        content="width=device-width, initial-scale=1.0">
-    <title>TV-Hub</title>
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
-        rel="stylesheet"
-        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
-        crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-        crossorigin="anonymous"></script>
-</head>
-
-<body>
-    <header>
-        <nav>
-            <div class="logo"><img src="/src/images/tvhublogo.png"
-                    alt="logo"></div>
-            <div class="title">
-                <h1>TV Hub</h1>
-            </div>
-            <div class="pages">
-                <li><a href="">Home</a></li>
-                <li class="s">Shows(<span class="shows-ctr"></span>)</li>
-                <li>
-                    <!-- <label for="name" class = "s">Search: </label>
-                    <input id="searchInput" placeholder="Series start with..." name="Name" class="input" type="text" maxlength="30" required> -->
-
-                </li>
-            </div>
-
-        </nav>
-    </header>
-
-
-
-    <main>
-        <div class="d-flex justify-content-center">
-
-            <input type="text" placeholder="Search your food by name" name="search" id="searchInput" spellcheck="false" data-ms-editor="true"
-            onfocus="this.value=''"
-                value="Search your TV shows by name">
+  <body>
+   
+  <header>
+    <div class="header-container">
+      <div class="container">
+        <div class="logo">
+          <h1>
+           <a href="./index.html">
+            <span>TV</span><span>Hub</span>
+           </a>
+          </h1>
         </div>
-        
-        <section class="window-popup pop-body" id="modal-wraper" style="display: none;">
+        <div class="searchContainer">
+          <form id="search-form" action="">
+            <input type="text" name="search" id="search" placeholder="Search">
+            <button type="submit">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </form>
+        </div>
+        <div class="mobile-nav">
+          <ul class="nav-links">
+            <li class="nav-link">
+             <a href="#6" class="active mobile-nav-links">Movies (<span class="movie-counter">0</span>)</a>
+            </li>
+            <li class="nav-link">
+             <a href="#8" class="mobile-nav-links">Signup</a>
+            </li>
+          </ul>
+        </div>
+        <nav>
+          <ul class="nav-links flex">
+            <li class="nav-link">
+             <a href="#1" class="active">Movies (<span class="movie-counter">0</span>)</a>
+            </li>
+            <li class="nav-link">
+             <a href="#3">Signup</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="hamburger">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+      </div>
+      <div class="overlay"></div>
+    </div>
+  </header>
+
+  <ul class="show-container"></ul>
+  <div id="modal" class="hidden"></div>
+
+  <footer>
+   <div class="header-container">
+    <div class="container">
+     <div class="logo">
+      <h1>
+       <a href="./index.html">
+        <span>TV</span><span>Hub</span>
+       </a>
+      </h1>
+     </div>
  
-        </section>
-        <section class="showslist">
+     <p class="authors">
+      <a href="https://github.com/Lucash2022" target="_blank" target="_blank">Designed by Lucas David Erkana</a>
+       
+      <div class="fa-3x">
+          <a class ="media-icons"  href="https://github.com/Lucash2022" target="_blank">
+            <i class="fa-brands fa-github github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/lucas-erkana-b30a0b3b/" target="_blank">
+            <i class="fa-brands fa-linkedin linkedin"></i>
+          </a>
+          <a  href="https://twitter.com/@Lucas_David_22" target="_blank">
+            <i class="fa-brands fa-square-twitter twitter"></i>
+          </a>
+          <a  href="https://www.facebook.com/lucash.toni" target="_blank">
+            <i class="fa-brands fa-square-facebook facebook"></i>
+          </a>
+          <a href="https://www.instagram.com/lu_cash_the_don/" target="_blank">
+        
+            <i class="fa-brands fa-instagram instagram"></i>
+          </a>
+          
+          <!-- <i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 2s;"></i>
+          <i class="fa-solid fa-heart fa-beat" style="--fa-beat-scale: 2.0;"></i> -->
+        </div>
 
-        </section>
+     </p>
+    </div>
+   </div>
+  </footer>
 
-
-    </main>
-
-    <footer>
-        <p>Created by Wahaj & Lucas</p>
-    </footer>
-</body>
+  </body>
 
 </html>
