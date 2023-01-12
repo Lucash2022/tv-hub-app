@@ -1,15 +1,22 @@
-import Shows from './modules/displayShows.js';
 import './style.css';
 
-const userData = {
-  search: 'the',
-};
-const searchInput = document.getElementById('searchInput');
-localStorage.setItem('object', JSON.stringify(userData));
-const dataOBJ = JSON.parse(localStorage.getItem('object'));
+import { DISPLAY, renderUserSearch } from './modules/homepage.js';
 
-const series = new Shows();
-series.displayShows(dataOBJ.search);
-searchInput.addEventListener('change', () => {
-  series.displayShows(searchInput.value);
+const mobileNavBtn = document.querySelector('.hamburger');
+const mobileNav = document.querySelector('.mobile-nav');
+const body = document.querySelector('body');
+const mobileLinks = document.querySelectorAll('.mobile-nav-links');
+
+DISPLAY();
+renderUserSearch();
+
+const toggleMobileNav = () => {
+  mobileNavBtn.classList.toggle('active');
+  mobileNav.classList.toggle('active');
+  body.classList.toggle('overflow');
+};
+
+mobileNavBtn.addEventListener('click', toggleMobileNav);
+mobileLinks.forEach((link) => {
+  link.addEventListener('click', toggleMobileNav);
 });
