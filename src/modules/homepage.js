@@ -133,7 +133,7 @@ const renderUserSearch = () => {
             <ul class="card-body">
               <li class="likes-container">
               <p>${shows[i].show.name}</p>
-              <p class="like-btn"><i class="fa-regular fa-heart like-btn-icon"></i></p>
+              <p class="like-btn"><i class="fa fa-heart like-btn-icon"></i></p>
               </li>
               <p class="likes"></p> 
             </ul>
@@ -143,6 +143,8 @@ const renderUserSearch = () => {
           </li>
         `;
       }
+
+
       MovieCount.forEach((count) => {
         count.innerHTML = showLength;
       });
