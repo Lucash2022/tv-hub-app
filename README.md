@@ -12,7 +12,7 @@
 
 ## In this milestone We will Create the TV hub: with APIs:
 
-> The JavaScript capstone project (remember what they are?) is about building a TV hub web application based on an external API(TVmaze DB). You will select an API that provides data about a topic that you like and then build the webapp around it. The webapp will have 2 user interfaces .
+> A TV show database website that displays all the information about a show including the description and the rating of the show. You can search for a show, like it, and comment on any of your favorite shows. This project consumed TVmaze API.
 
 </div>
 
